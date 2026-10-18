@@ -7,6 +7,20 @@ import zipfile
 from .parse import parse_airspaces, vintage_tag
 from .labels import LabelRenderer
 
+# Fixed entry timestamp so unchanged inputs produce byte-identical zips/KMZs
+# (lets built charts be committed without churning on every rebuild).
+_ZIP_EPOCH = (1980, 1, 1, 0, 0, 0)
+
+
+def write_zip(out_path, entries):
+    """Write {arcname: bytes} to out_path deterministically (sorted, fixed time)."""
+    with zipfile.ZipFile(out_path, 'w', zipfile.ZIP_DEFLATED) as z:
+        for arc in sorted(entries):
+            zi = zipfile.ZipInfo(arc, date_time=_ZIP_EPOCH)
+            zi.compress_type = zipfile.ZIP_DEFLATED
+            zi.external_attr = 0o644 << 16
+            z.writestr(zi, entries[arc])
+
 
 def _rep_point(exterior):
     try:
@@ -73,10 +87,9 @@ def build_layer_kmz(out_path, layer_name, xml_paths, renderer: LabelRenderer, st
            + ''.join(styles) + '\n' + ''.join(placemarks) + '\n</Document></kml>')
 
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
-    with zipfile.ZipFile(out_path, 'w', zipfile.ZIP_DEFLATED) as z:
-        z.writestr('doc.kml', doc)
-        for f, png in icons.items():
-            z.writestr(f'icons/{f}.png', png)
+    entries = {'doc.kml': doc.encode('utf-8')}
+    entries.update({f'icons/{f}.png': png for f, png in icons.items()})
+    write_zip(out_path, entries)
     return len(feets)
 
 
@@ -105,10 +118,13 @@ def zip_pack(pack_root, pack_name, out_zip):
     os.makedirs(os.path.dirname(out_zip), exist_ok=True)
     if os.path.exists(out_zip):
         os.remove(out_zip)
-    with zipfile.ZipFile(out_zip, 'w', zipfile.ZIP_DEFLATED) as z:
-        for root, _dirs, files in os.walk(base):
-            for fn in files:
-                full = os.path.join(root, fn)
-                arc = os.path.relpath(full, pack_root)
-                z.write(full, arc)
+    entries = {}
+    for root, _dirs, files in os.walk(base):
+        for fn in files:
+            if fn.startswith('.'):  # e.g. Finder's .DS_Store
+                continue
+            full = os.path.join(root, fn)
+            with open(full, 'rb') as f:
+                entries[os.path.relpath(full, pack_root).replace(os.sep, '/')] = f.read()
+    write_zip(out_zip, entries)
     return out_zip

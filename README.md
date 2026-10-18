@@ -33,6 +33,26 @@ python -m mvapacks.cli build --stale                  # only centers whose data 
 Built packs land in `dist/<PACK>.zip`, ready to import into ForeFlight
 (Settings → import, or share the .zip into the app).
 
+### Releasing
+
+```bash
+python -m mvapacks.cli release              # dry run: sync charts/, stage dist/release/, write notes
+python -m mvapacks.cli release --publish    # commit charts/ + state/, tag, push, create GitHub release
+```
+
+A release is tagged `data-YYYY-MM-DD` and has:
+
+- **On the release page:** `MVA-MIA-All-Centers-<date>.zip` (every pack), one pack zip
+  per center, and `SHA256SUMS`. Release notes list chart changes since the previous release.
+- **In the repo:** `charts/<ARTCC>/<chart>.kmz`, one standalone KMZ per chart, with a
+  README table of sectors and FAA vintages per center.
+
+KMZs and zips are written with fixed timestamps, so an unchanged chart is byte-identical
+across builds and only charts the FAA revised show up as changes. `--publish` refuses to
+run with uncommitted changes outside `charts/` and `state/`, and refuses when no chart
+changed since the last release (override with `--force`). Packs must be built from the
+current lockfile first (`build --stale`).
+
 ### Options
 
 | Flag | Meaning |
@@ -81,7 +101,8 @@ config/          artccs.yaml (registry), style.yaml (locked style)
 assets/          bundled font
 state/           sources.lock.json, build_state.json  (tracked)
 data/            FAA XML snapshot                      (gitignored)
-dist/            built packs                           (gitignored)
+dist/            built packs, dist/release/ staging    (gitignored)
+charts/          released per-chart KMZs by ARTCC       (tracked; written by `release`)
 ```
 
 ## Data source & attribution

@@ -5,11 +5,13 @@ Subcommands:
   status   Show, per ARTCC, whether a rebuild is needed (stale vs built).
   build    Build content pack(s): --all | --stale | --artcc ZDC [ZTL ...]
   list     List known ARTCCs and their facilities.
+  release  Sync charts/ and stage dist/release/; --publish commits, tags and creates the GitHub release.
 
 Global data lives under the repo:
   data/            cloned FAA XML (gitignored)
   state/           sources.lock.json, build_state.json
   dist/            built <PACK>.zip (gitignored)
+  charts/          released per-chart KMZs, one folder per ARTCC (committed)
 """
 from __future__ import annotations
 import argparse
@@ -19,7 +21,7 @@ import sys
 
 import yaml
 
-from . import sources, pack as packmod
+from . import sources, pack as packmod, release as releasemod
 from .naming import Registry, facility_files
 from .labels import LabelRenderer
 from .parse import vintage_tag
@@ -253,6 +255,50 @@ def cmd_list(args):
         print(f'{ac} ({reg.artcc_label(ac, "full")}): {len(facs)}  ' + ' '.join(facs))
 
 
+def cmd_release(args):
+    reg = Registry.load(CFG_ARTCCS)
+    lock = sources.load_lock(LOCK)
+    if args.publish:
+        dirty = releasemod.dirty_paths(ROOT)
+        if dirty:
+            print('Commit or stash these changes first (a release is tagged from HEAD):')
+            for p in dirty:
+                print(f'  {p}')
+            return 1
+    try:
+        st = releasemod.stage(ROOT, reg, _load_build_state(), lock,
+                              _pack_sources, _hashes_for, fus=args.fus)
+    except RuntimeError as e:
+        print(e)
+        return 1
+    c = st['charts']
+    print(f"Release {st['tag']}  (previous: {st['prev'] or 'none'})")
+    print(f"  charts/: {len(c['added'])} added, {len(c['changed'])} changed, {len(c['removed'])} removed")
+    for k in ('added', 'changed', 'removed'):
+        for n in c[k][:10]:
+            print(f'    {k}: {n}')
+        if len(c[k]) > 10:
+            print(f'    ... {len(c[k]) - 10} more {k}')
+    total = 0
+    print('  release assets:')
+    for a in st['assets']:
+        size = os.path.getsize(a)
+        total += size
+        print(f'    {os.path.basename(a):<44} {size / 1e6:6.2f} MB')
+    print(f'    {"total":<44} {total / 1e6:6.2f} MB')
+    print(f"  notes: {os.path.relpath(st['notes'], ROOT)}")
+
+    changes = releasemod._chart_changes(ROOT, st['prev'])
+    if not args.publish:
+        print('Dry run: nothing committed or published. Re-run with --publish to release.')
+        return
+    if changes == [] and not args.force:
+        print(f"No chart changes since {st['prev']}; not publishing (use --force to override).")
+        return 1
+    url = releasemod.publish(ROOT, st)
+    print(f'Published {url}')
+
+
 def main(argv=None):
     p = argparse.ArgumentParser(prog='mvapacks', description='Build FAA MVA/MIA ForeFlight content packs.')
     sub = p.add_subparsers(dest='cmd', required=True)
@@ -278,6 +324,13 @@ def main(argv=None):
 
     pl = sub.add_parser('list', help='List ARTCCs and facilities')
     pl.set_defaults(func=cmd_list)
+
+    pr = sub.add_parser('release', help='Stage (and optionally publish) a GitHub data release')
+    pr.add_argument('--fus', type=int, choices=(3, 5), default=3)
+    pr.add_argument('--publish', action='store_true',
+                    help='Commit charts/ + state/, tag data-YYYY-MM-DD, push, and create the GitHub release')
+    pr.add_argument('--force', action='store_true', help='Publish even if no chart changed since the last release')
+    pr.set_defaults(func=cmd_release)
 
     args = p.parse_args(argv)
     return args.func(args)

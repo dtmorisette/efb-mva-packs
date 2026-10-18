@@ -21,6 +21,7 @@ pip install -r requirements.txt          # shapely, pillow, pyyaml  (conda/pip b
 python -m mvapacks.cli update             # pull FAA XML, hash, record vintage tags
 python -m mvapacks.cli status --fus 3     # per-center: up-to-date / STALE / never built
 python -m mvapacks.cli build --artcc ZDC  # build one; also --all, --stale, ZDC ZTL ...
+python -m mvapacks.cli release            # dry run; --publish commits charts/, tags, creates GH release
 ```
 
 Built packs → `dist/<PACK>.zip`. Import into ForeFlight by sharing the .zip into the app.
@@ -35,15 +36,20 @@ Entry point: `mvapacks/cli.py::main` (also exposed as the `mvapacks` console scr
 | `mvapacks/sources.py` | Scrape FAA index pages, download XML from `aeronav.faa.gov`, SHA-256 hashing, `sources.lock.json` read/write/diff. Also `ingest_local()` for offline snapshots. |
 | `mvapacks/parse.py` | AIXM 5.1 → `(mva_feet, rings)`; `vintage_tag()`; `footprint()` (shapely union). |
 | `mvapacks/labels.py` | `LabelRenderer` — bakes altitude labels as transparent PNGs in the locked style (per-glyph kerning). |
-| `mvapacks/pack.py` | `build_layer_kmz()` (polygon boundaries + PNG label placemarks), `assemble_pack()` (manifest + provenance), `zip_pack()`. |
+| `mvapacks/pack.py` | `build_layer_kmz()` (polygon boundaries + PNG label placemarks), `assemble_pack()` (manifest + provenance), `zip_pack()`. All zips go through `write_zip()` (fixed timestamps, sorted entries) so output is byte-reproducible. |
 | `mvapacks/naming.py` | `Registry` (loads `config/artccs.yaml`, code↔full name resolution) and `facility_files()` (FUS selection + grouping). |
-| `mvapacks/cli.py` | argparse subcommands: `update`, `status`, `build`, `list`. Owns `state/build_state.json`. |
+| `mvapacks/release.py` | `stage()` syncs `charts/` and builds `dist/release/` (pack zips, all-centers zip, SHA256SUMS, notes); `publish()` commits `charts/`+`state/`, tags `data-YYYY-MM-DD`, pushes, runs `gh release create`. |
+| `mvapacks/cli.py` | argparse subcommands: `update`, `status`, `build`, `list`, `release`. Owns `state/build_state.json`. |
 | `config/artccs.yaml` | The facility registry: ARTCC→facilities, display names. **Editable by hand.** |
 | `config/style.yaml` | Locked label/boundary house style (v1.7). |
 | `assets/DejaVuSans.ttf` | Bundled font so rendering is identical across machines. |
 
 Data/output dirs (gitignored): `data/` (FAA XML snapshot), `dist/` (built packs).
-Tracked state: `state/sources.lock.json`, `state/build_state.json`.
+Tracked state: `state/sources.lock.json`, `state/build_state.json`. Tracked output:
+`charts/` (per-chart KMZs, written only by `release` — don't hand-edit).
+
+- **Builds must stay byte-reproducible.** `charts/` is committed, so any nondeterminism
+  (timestamps, dict/file ordering) would rewrite every chart in git on each release.
 
 ## Key conventions — do not change without asking
 
@@ -99,8 +105,9 @@ mapping is self-consistent and reproducible. Result lives in `config/artccs.yaml
 - Engine validated end-to-end against a local FAA snapshot: `update --from-local` →
   `status` → `build --artcc ZDC` reproduced the approved ZDC pack (correct layers, sector
   counts, and byte-identical label dimensions).
-- **Not yet done:** building the other ARTCC packs for real against live FAA data; the
-  optional weekly GitHub Action (deliberately deferred by the user); display-name cleanup.
+- All 23 ARTCC packs built from live FAA data (2026-10-18); `release` command added.
+- **Not yet done:** the optional weekly GitHub Action (deliberately deferred by the user;
+  it would run `update` → `build --stale` → `release --publish`); display-name cleanup.
 
 ## Gotchas
 
