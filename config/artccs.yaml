@@ -1,0 +1,371 @@
+# efb-mva-packs facility registry
+# Auto-generated from FAA MIA (TAV) footprints by max-overlap assignment.
+# Edit freely: move a facility between centers, fix a name, or add 'override:'.
+# 'confidence' notes where the auto name/assignment is uncertain -> verify.
+
+artccs:
+  ZAB:
+    name: 'Albuquerque'
+    facilities:
+      - code: ABQ
+        name: 'Albuquerque International Sunport'
+      - code: AMA
+        name: 'Rick Husband Amarillo'
+      - code: ELP
+        name: 'El Paso'
+      - code: P50
+        name: 'Phoenix'
+      - code: ROW
+        name: 'Roswell Air Center'
+      - code: U90
+        name: 'Tucson'
+  ZAN:
+    name: 'Anchorage'
+    facilities:
+      - code: A11
+        name: 'Anchorage'
+      - code: FAI
+        name: 'Fairbanks'
+  ZAU:
+    name: 'Chicago'
+    facilities:
+      - code: ALO
+        name: 'Waterloo'
+      - code: AZO
+        name: 'Kalamazoo/Battle Creek'   # boundary case: 44.0% ZAU vs 40.3%
+      - code: C90
+        name: 'Chicago'
+      - code: CID
+        name: 'The Eastern Iowa'
+      - code: CMI
+        name: 'University of Illinois Willard'
+      - code: MKE
+        name: 'General Mitchell'
+      - code: MLI
+        name: 'Quad City'
+      - code: MSN
+        name: 'Dane County Regional Truax Field'
+      - code: RFD
+        name: 'Chicago Rockford'
+      - code: SBN
+        name: 'South Bend'
+  ZBW:
+    name: 'Boston'
+    facilities:
+      - code: A90
+        name: 'Boston'
+      - code: ALB
+        name: 'Albany'
+      - code: BGR
+        name: 'Bangor'
+      - code: BTV
+        name: 'Patrick Leahy Burlington'
+      - code: PVD
+        name: 'Rhode Island T. F. Green'
+      - code: PWM
+        name: 'Portland International Jetport'
+      - code: SYR
+        name: 'Syracuse Hancock'
+      - code: Y90
+        name: 'Bradley'
+  ZDC:
+    name: 'Washington'
+    facilities:
+      - code: ACY
+        name: 'Atlantic City'   # boundary case: 50.7% ZDC vs 49.3%
+      - code: FAY
+        name: 'Fayetteville Regional Airport - Grannis Field'
+      - code: GSO
+        name: 'Piedmont Triad'   # boundary case: 51.7% ZDC vs 48.3%
+      - code: ILM
+        name: 'Wilmington'
+      - code: ORF
+        name: 'Norfolk'
+      - code: PCT
+        name: 'Potomac'
+      - code: RDU
+        name: 'Raleigh-Durham'
+      - code: ROA
+        name: 'Roanoke–Blacksburg'
+  ZDV:
+    name: 'Denver'
+    facilities:
+      - code: ASE
+        name: 'Aspen-Pitkin County Airport (Sardy Field)'
+      - code: COS
+        name: 'City of Colorado Springs'
+      - code: CPR
+        name: 'Casper-Natrona County'
+      - code: D01
+        name: 'Denver'
+  ZFW:
+    name: 'Fort Worth'
+    facilities:
+      - code: ABI
+        name: 'Abilene'
+      - code: ACT
+        name: 'Waco'
+      - code: D10
+        name: 'Dallas-Fort Worth'
+      - code: GGG
+        name: 'East Texas'
+      - code: LBB
+        name: 'Lubbock Preston Smith'
+      - code: MAF
+        name: 'Midland International Air and Space Port'
+      - code: MLU
+        name: 'Monroe'   # boundary case: 48.3% ZFW vs 30.7%
+      - code: OKC
+        name: 'OKC Will Rogers World'
+      - code: SHV
+        name: 'Shreveport'
+  ZHN:
+    name: 'Honolulu'
+    facilities:
+      - code: ZHN
+        name: 'Honolulu'
+  ZHU:
+    name: 'Houston'
+    facilities:
+      - code: AUS
+        name: 'Austin Bergstrom'
+      - code: BTR
+        name: 'Baton Rouge Metropolitan'
+      - code: CRP
+        name: 'Corpus Christi'
+      - code: GPT
+        name: 'Gulfport Biloxi'
+      - code: I90
+        name: 'Houston'
+      - code: LCH
+        name: 'Lake Charles'
+      - code: LFT
+        name: 'Lafayette'
+      - code: MOB
+        name: 'Mobile'
+      - code: MSY
+        name: 'Louis Armstrong New Orleans'
+      - code: SAT
+        name: 'San Antonio'
+  ZID:
+    name: 'Indianapolis'
+    facilities:
+      - code: CMH
+        name: 'John Glenn Columbus'
+      - code: CRW
+        name: 'Yeager'
+      - code: CVG
+        name: 'Cincinnati Northern Kentucky'
+      - code: EVV
+        name: 'Evansville'
+      - code: HTS
+        name: 'Tri-State Airport / Milton J. Ferguson Field'
+      - code: HUF
+        name: 'Terre Haute Regional Airport, Hulman Field'
+      - code: IND
+        name: 'Indianapolis'
+      - code: LEX
+        name: 'Blue Grass'
+      - code: SDF
+        name: 'Louisville Muhammad Ali'
+  ZJX:
+    name: 'Jacksonville'
+    facilities:
+      - code: CAE
+        name: 'Columbia Metropolitan'
+      - code: CHS
+        name: 'Charleston'
+      - code: DAB
+        name: 'Daytona Beach'
+      - code: FLO
+        name: 'Florence'
+      - code: JAX
+        name: 'Jacksonville'
+      - code: MYR
+        name: 'Myrtle Beach'
+      - code: P31
+        name: 'P31'   # VERIFY name
+      - code: SAV
+        name: 'Savannah Hilton Head'
+      - code: TLH
+        name: 'Tallahassee'
+  ZKC:
+    name: 'Kansas City'
+    facilities:
+      - code: ICT
+        name: 'Wichita Dwight D. Eisenhower National'
+      - code: MCI
+        name: 'Kansas City'
+      - code: SGF
+        name: 'Springfield Branson National'
+      - code: T75
+        name: 'St. Louis'
+      - code: TUL
+        name: 'Tulsa'
+  ZLA:
+    name: 'Los Angeles'
+    facilities:
+      - code: BFL
+        name: 'Meadows Field'
+      - code: JCF
+        name: 'JCF'   # VERIFY name
+      - code: L30
+        name: 'Las Vegas'
+      - code: SBA
+        name: 'Santa Barbara'
+      - code: SCT
+        name: 'Southern California'
+  ZLC:
+    name: 'Salt Lake City'
+    facilities:
+      - code: BIL
+        name: 'Billings Logan'
+      - code: BOI
+        name: 'Boise Air Terminal/Gowen Field'
+      - code: GTF
+        name: 'Great Falls'
+      - code: HLN
+        name: 'Helena'
+      - code: S56
+        name: 'Salt Lake City'
+      - code: TWF
+        name: 'Joslin Field Magic Valley'
+      - code: ZLC
+        name: 'Salt Lake City'
+  ZMA:
+    name: 'Miami'
+    facilities:
+      - code: F11
+        name: 'Central Florida'   # boundary case: 54.3% ZMA vs 45.7%
+      - code: MIA
+        name: 'Miami'
+      - code: PBI
+        name: 'President Donald J. Trump'
+      - code: RSW
+        name: 'Southwest Florida'
+      - code: TPA
+        name: 'Tampa'
+  ZME:
+    name: 'Memphis'
+    facilities:
+      - code: BNA
+        name: 'Nashville'
+      - code: HSV
+        name: 'Huntsville'
+      - code: JAN
+        name: 'Jackson-Medgar Wiley Evers'
+      - code: LIT
+        name: 'Bill & Hillary Clinton National Airport/Adams Field'
+      - code: M03
+        name: 'M03'   # VERIFY name
+  ZMP:
+    name: 'Minneapolis'
+    facilities:
+      - code: BIS
+        name: 'Bismarck'
+      - code: DLH
+        name: 'Duluth'
+      - code: DSM
+        name: 'Des Moines'   # boundary case: 56.2% ZMP vs 43.8%
+      - code: FAR
+        name: 'Hector'
+      - code: FSD
+        name: 'Sioux Falls'
+      - code: GRB
+        name: 'Austin Straubel'
+      - code: M98
+        name: 'Minneapolis'
+      - code: R90
+        name: 'Omaha'
+      - code: RST
+        name: 'Rochester'
+      - code: SUX
+        name: 'Sioux Gateway Airport / Brigadier General Bud Day Field'
+  ZNY:
+    name: 'New York'
+    facilities:
+      - code: ABE
+        name: 'Lehigh Valley'
+      - code: BGM
+        name: 'Greater Binghamton/Edwin A Link field'
+      - code: ELM
+        name: 'Elmira Corning'
+      - code: MDT
+        name: 'Harrisburg'
+      - code: N90
+        name: 'New York'
+      - code: PHL
+        name: 'Philadelphia'
+      - code: RDG
+        name: 'Reading Regional Airport (Carl A Spaatz Field)'
+  ZOA:
+    name: 'Oakland'
+    facilities:
+      - code: FAT
+        name: 'Fresno Yosemite'
+      - code: NCT
+        name: 'Northern California'
+      - code: ZOA
+        name: 'Oakland'
+  ZOB:
+    name: 'Cleveland'
+    facilities:
+      - code: BUF
+        name: 'Buffalo Niagara'
+      - code: CKB
+        name: 'North Central West Virginia'   # boundary case: 53.8% ZOB vs 31.3%
+      - code: CLE
+        name: 'Cleveland Hopkins'
+      - code: D21
+        name: 'Detroit'
+      - code: PIT
+        name: 'Pittsburgh'
+      - code: ROC
+        name: 'Frederick Douglass Greater Rochester'
+      - code: TOL
+        name: 'Eugene F. Kranz Toledo Express'
+      - code: YNG
+        name: 'Youngstown Warren'
+  ZSE:
+    name: 'Seattle'
+    facilities:
+      - code: EUG
+        name: 'Eugene'
+      - code: GEG
+        name: 'Spokane'
+      - code: MWH
+        name: 'Grant County'
+      - code: P80
+        name: 'Portland'
+      - code: S46
+        name: 'Seattle'
+  ZSU:
+    name: 'San Juan'
+    facilities:
+      - code: ZSU
+        name: 'San Juan'
+  ZTL:
+    name: 'Atlanta'
+    facilities:
+      - code: A80
+        name: 'Atlanta'
+      - code: AGS
+        name: 'Augusta Regional At Bush Field'
+      - code: AVL
+        name: 'Asheville'
+      - code: BHM
+        name: 'Birmingham-Shuttlesworth'
+      - code: CHA
+        name: 'Chattanooga Metropolitan Airport (Lovell Field)'
+      - code: CLT
+        name: 'Charlotte Douglas'
+      - code: GSP
+        name: 'Greenville-Spartanburg'
+      - code: MGM
+        name: 'Montgomery Regional (Dannelly Field)'
+      - code: TRI
+        name: 'Tri-Cities Regional TN/VA'
+      - code: TYS
+        name: 'McGhee Tyson'
+
+# Unassigned (no CONUS center footprint match): ZUA

@@ -1,0 +1,15 @@
+# Locked house style for MVA/MIA pack labels and boundaries (v1.7).
+# Colours in KML are aabbggrr hex. RGBA tuples are (r,g,b,a) 0-255.
+
+label:
+  font: assets/DejaVuSans.ttf   # bundled; path relative to repo root
+  size: 40
+  kern: 3                       # extra px between glyphs
+  text_fill:  [80, 35, 150, 255]    # dark purple
+  halo_color: [205, 180, 248, 170]  # pale lavender, restrained
+  halo_radius: 2
+  icon_scale: 0.8               # KML IconStyle scale
+
+boundary:
+  color: ffff5a9a   # KML aabbggrr -> purple RGB(154,90,255), opaque
+  width: 3
