@@ -1,0 +1,10 @@
+# Honolulu (ZHN) MVA/MIA charts
+
+**Not for navigation.** For planning and situational awareness only. Built from FAA MVA/MIA AIXM data; always defer to ATC and official sources.
+
+Each file is a standalone KMZ layer. The whole center is also available as one ForeFlight content pack on the [Releases](https://github.com/dtmorisette/efb-mva-packs/releases/latest) page.
+
+| Chart | Sectors | FAA vintage | Source file(s) |
+|---|---:|---|---|
+| [ZHN MVA](ZHN%20MVA.kmz) | 17 | ZHN_MVA_FUS3_2025 | `ZHN_MVA_FUS3.xml` |
+| [ZHN MIA](ZHN%20MIA.kmz) | 29 | ZHN_TAV_2025 | `ZHN_TAV.xml` |
