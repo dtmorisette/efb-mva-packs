@@ -4,3 +4,5 @@ __pycache__/
 *.pyc
 .venv/
 *.egg-info/
+.claude/settings.local.json
+.DS_Store

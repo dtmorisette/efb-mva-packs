@@ -15,6 +15,7 @@ import json
 import os
 import re
 import time
+import urllib.error
 import urllib.request
 
 INDEX = {
@@ -53,20 +54,37 @@ def sha256_file(path: str) -> str:
     return h.hexdigest()
 
 
+def _get_retry(url, attempts=4, backoff=2.0):
+    """_get with retries; aeronav.faa.gov intermittently returns spurious 404/5xx."""
+    for n in range(attempts):
+        try:
+            return _get(url)
+        except (urllib.error.URLError, TimeoutError, ConnectionError):
+            if n == attempts - 1:
+                raise
+            time.sleep(backoff * (2 ** n))
+
+
 def download_all(dest_dir, delay=0.1, progress=None):
-    """Download every remote XML into dest_dir. Returns {basename: sha256}."""
+    """Download every remote XML into dest_dir.
+    Returns ({basename: sha256}, {basename: error}) — files that still fail after
+    retries are reported in the second dict instead of aborting the whole run."""
     os.makedirs(dest_dir, exist_ok=True)
     remote = list_remote_xml()
-    hashes = {}
+    hashes, failed = {}, {}
     for i, (name, url) in enumerate(sorted(remote.items())):
-        data = _get(url)
-        with open(os.path.join(dest_dir, name), 'wb') as f:
-            f.write(data)
-        hashes[name] = sha256_bytes(data)
+        try:
+            data = _get_retry(url)
+        except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
+            failed[name] = str(e)
+        else:
+            with open(os.path.join(dest_dir, name), 'wb') as f:
+                f.write(data)
+            hashes[name] = sha256_bytes(data)
         if progress:
             progress(i + 1, len(remote), name)
         time.sleep(delay)
-    return hashes
+    return hashes, failed
 
 
 def ingest_local(src_dir, dest_dir):

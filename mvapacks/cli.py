@@ -74,6 +74,7 @@ def _hashes_for(lock, basenames):
 
 def cmd_update(args):
     prev = sources.load_lock(LOCK)
+    failed = {}
     if args.from_local:
         print(f'Ingesting local snapshot: {args.from_local}')
         new_hashes = sources.ingest_local(args.from_local, DATA)
@@ -83,7 +84,7 @@ def cmd_update(args):
         def prog(i, n, name):
             sys.stdout.write(f'\r  {i}/{n}  {name:<32}')
             sys.stdout.flush()
-        new_hashes = sources.download_all(DATA, progress=prog)
+        new_hashes, failed = sources.download_all(DATA, progress=prog)
         print()
 
     # build new lock with vintage tags
@@ -91,6 +92,11 @@ def cmd_update(args):
     for name, sha in new_hashes.items():
         vt = vintage_tag(os.path.join(DATA, name))
         new_files[name] = {'sha256': sha, 'vintage': vt}
+    # a failed download keeps its previous lock entry so it isn't reported as removed
+    for name in failed:
+        if name in prev['files']:
+            new_files[name] = prev['files'][name]
+            new_hashes[name] = prev['files'][name]['sha256']
     added, changed, removed = sources.diff_hashes(prev['files'], new_hashes)
     sources.save_lock(LOCK, {'files': new_files})
     print(f'Lockfile updated: {len(new_files)} files '
@@ -100,6 +106,11 @@ def cmd_update(args):
         print(f'  changed: {n}  {old_v} -> {new_files[n]["vintage"]}')
     if added:
         print('  new: ' + ' '.join(added[:20]) + (' ...' if len(added) > 20 else ''))
+    if failed:
+        print(f'WARNING: {len(failed)} file(s) failed to download (re-run update to retry):')
+        for n, err in sorted(failed.items()):
+            print(f'  {n}: {err}')
+        return 1
 
 
 def cmd_status(args):

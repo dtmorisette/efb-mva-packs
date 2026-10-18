@@ -48,6 +48,8 @@ def facility_files(data_dir, facility, kind='mva', fus=None):
     allf = sorted(glob.glob(os.path.join(data_dir, f'{facility}_*.xml')))
     # keep only files whose first underscore-token is exactly this facility
     allf = [f for f in allf if os.path.basename(f).split('_')[0] == facility]
+    # an ARTCC-level MVA facility (e.g. ZOA) shares a prefix with its MIA file
+    allf = [f for f in allf if not os.path.basename(f).upper().endswith('_TAV.XML')]
     if fus in (3, 5):
         tag = f'FUS{fus}'
         sel = [f for f in allf if tag in os.path.basename(f).upper()]

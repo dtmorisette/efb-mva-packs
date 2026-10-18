@@ -1,0 +1,1372 @@
+{
+  "files": {
+    "A11_MVA_FUS3.xml": {
+      "sha256": "a4c6369ca90f0581894a38aa3d24f9ca466f454162ebd2df0df2b76a648eb72a",
+      "vintage": "A11_MVA_FUS3_2025"
+    },
+    "A11_MVA_FUS5.xml": {
+      "sha256": "561a9b2b6e5615d9011749261aea0a7dec02b86aa2e0380e30685555f28151d1",
+      "vintage": "A11_MVA_FUS5_2025"
+    },
+    "A80_MVA_FUS3.xml": {
+      "sha256": "06e11b12552a1488af7e28e1a92b2d0134e5592e16cf07821e4b4b453e0b4438",
+      "vintage": "A80_MVA_FUS3_2025"
+    },
+    "A80_MVA_FUS5.xml": {
+      "sha256": "e473dd49036d5459c3bc789be5d82563d2b98d21a97fd322bc421cafd0df4dd3",
+      "vintage": "A80_MVA_FUS5_2025"
+    },
+    "A90_MVA_FUS3.xml": {
+      "sha256": "633f83bace22f13aaf5baec8b2aaf8838420c84437a1a189e0fe051cc0060cf0",
+      "vintage": "A90_MVA_FUS3_2024"
+    },
+    "A90_MVA_FUS5.xml": {
+      "sha256": "ef125d9f5d446f8152a811e156dfaeee15429f0e485a7c27ccb0a0a3afe17712",
+      "vintage": "A90_MVA_FUS5_2024"
+    },
+    "ABE_MVA_FUS3.xml": {
+      "sha256": "b7be65d5f1ee5b5ec6f9e7495b8d20cdb263de774716357da85d306204f378bb",
+      "vintage": "ABE_MVA_FUS3_2024"
+    },
+    "ABE_MVA_FUS5.xml": {
+      "sha256": "dfb869ef4dc979a50e7ff94ff9c8f279ef4355c484ac5ccb465b808104341236",
+      "vintage": "ABE_MVA_FUS5_2024"
+    },
+    "ABI_MVA_FUS3.xml": {
+      "sha256": "4d3624e0baca9dc082b5f47bfe84834d3c15ffbc9a5cd21cfb7a847343c0473e",
+      "vintage": "ABI_MVA_FUS3_2024"
+    },
+    "ABI_MVA_FUS5.xml": {
+      "sha256": "ef717b54a5e949f2b578dc942291ede31d75e4830a3315efe89c2d2e35aac9ac",
+      "vintage": "ABI_MVA_FUS5_2024"
+    },
+    "ABQ_MVA_FUS3.xml": {
+      "sha256": "af6edd0ca174dd845b494475cab6d182dc700fa2a21fff65c6254bd612fcfca4",
+      "vintage": "ABQ_MVA_FUS3_2025"
+    },
+    "ABQ_MVA_FUS5.xml": {
+      "sha256": "0df006ed52c31e9a90e8a48876a96d4e3b748412ccb7bd1f5f11785ab407ed50",
+      "vintage": "ABQ_MVA_FUS5_2025"
+    },
+    "ACT_MVA_FUS3.xml": {
+      "sha256": "ddaed29c34b98ee81404f1390c994ce896cc59067fc4d44e0312def28f1feca9",
+      "vintage": "ACT_MVA_FUS3_2025_v1"
+    },
+    "ACT_MVA_FUS5.xml": {
+      "sha256": "3cc10644d2080596b97e534d573f6b8966409d31b6f763e17adb4c7f49c89af6",
+      "vintage": "ACT_MVA_FUS5_2025_v1"
+    },
+    "ACY_MVA_FUS3.xml": {
+      "sha256": "131418737610b02c2c4bfa0daf382bbda90709d9d4152ea1d112ddee715578f6",
+      "vintage": "ACY_MVA_FUS3_2025"
+    },
+    "ACY_MVA_FUS5.xml": {
+      "sha256": "6862b14ab8ed7a6de508c1271bc967253a51f5f53587fbd6478cb83e4a832bba",
+      "vintage": "ACY_MVA_FUS5_2025"
+    },
+    "AGS_MVA_FUS3.xml": {
+      "sha256": "9186e362ba9f4aa6294aa3832b14497e5538d48a387ad16ec9414841459e4513",
+      "vintage": "AGS_MVA_FUS3_2024"
+    },
+    "AGS_MVA_FUS5.xml": {
+      "sha256": "1d9cc8e0331fede64235a4c2a27b2e691a43e7331822298dc02d6f56f59c1f59",
+      "vintage": "AGS_MVA_FUS5_2024"
+    },
+    "ALB_MVA_FUS3.xml": {
+      "sha256": "3c79453dbe0819a013d903f099e186133a47ee18e0c5cd807215a7c11b3bf091",
+      "vintage": "ALB_MVA_FUS3_2023"
+    },
+    "ALB_MVA_FUS5.xml": {
+      "sha256": "0de8ff91e23b3f91818373d0ee248e383d2d85520869d00f7ba0b6b4d622dd0b",
+      "vintage": "ALB_MVA_FUS5_2023"
+    },
+    "ALO_MVA_FUS3.xml": {
+      "sha256": "0d6b2bf7643e84be5a2f910244b9ed8e73573f2242c475129f3766fa504c6de9",
+      "vintage": "ALO_MVA_FUS3_2024"
+    },
+    "ALO_MVA_FUS5.xml": {
+      "sha256": "051f3d77b35ca1e34e770fca8d79ba7f6f7dcdbd93f6e38bd11f2815e0f0b22d",
+      "vintage": "ALO_MVA_FUS5_2024"
+    },
+    "AMA_MVA_FUS3.xml": {
+      "sha256": "3a7fdb564a0d733aa3333a9dd5ae47bdfb69fe926a484e0eb65402ad94631f8a",
+      "vintage": "AMA_MVA_FUS3_2023"
+    },
+    "AMA_MVA_FUS5.xml": {
+      "sha256": "a2d9d8f213b77696ef94c256d0ca9f7ca760d0888f80678b14dfc58c52bec8b4",
+      "vintage": "AMA_MVA_FUS5_2023"
+    },
+    "ASE_MVA_FUS3.xml": {
+      "sha256": "590e22643378bb9fb326d71cbca947e6c25d94026d167f701b4ee44dc62f81fc",
+      "vintage": "ASE_MVA_FUS3_2024"
+    },
+    "ASE_MVA_FUS5.xml": {
+      "sha256": "a32fea8edd31834db863bf5f94e97d4538afc1029b84f5ab3ce29df9f8dec7ec",
+      "vintage": "ASE_MVA_FUS5_2024"
+    },
+    "AUS_MVA_FUS3.xml": {
+      "sha256": "afcc44fb56cc8ac00c6fb204a8988e839827ae7ffb56695ba3380c6dd28b63b6",
+      "vintage": "AUS_MVA_FUS3_2025_v1"
+    },
+    "AUS_MVA_FUS5.xml": {
+      "sha256": "ac4f165718189ddc862195161950fca0c6b2b528d9db71247cf5596754cfd3ea",
+      "vintage": "AUS_MVA_FUS5_2025_v1"
+    },
+    "AVL_MVA_FUS3.xml": {
+      "sha256": "c49e64272785b36e954fc5a245e265f5b8eb432a2b14d2657b471727f56eb817",
+      "vintage": "AVL_MVA_FUS3_2025"
+    },
+    "AVL_MVA_FUS5.xml": {
+      "sha256": "79ec727487acae8f435f99c0948be6a879e656d0db1ae4569786f21b9b2fd266",
+      "vintage": "AVL_MVA_FUS5_2025"
+    },
+    "AZO_MVA_FUS3.xml": {
+      "sha256": "d947479bc595f2a4ec49517c02cc9388e67164f0a62d0165ee028db643d4c72b",
+      "vintage": "AZO_MVA_FUS3_2023"
+    },
+    "AZO_MVA_FUS5.xml": {
+      "sha256": "4c19aa1eb4e2c78bf34b937619afb5474facbc0a2b8a46106ff90eca21a61eac",
+      "vintage": "AZO_MVA_FUS5_2023"
+    },
+    "BFL_MVA_FUS3.xml": {
+      "sha256": "082bdf1137ecbbefee78221f51aa728966c305f833522773628f0acf138ebb1f",
+      "vintage": "BFL_MVA_FUS3_2026"
+    },
+    "BFL_MVA_FUS5.xml": {
+      "sha256": "74a39a87164bddaf1d3b23731956dfa3246537da86262a73c8ebe639ac2b2400",
+      "vintage": "BFL_MVA_FUS5_2026"
+    },
+    "BGM_MVA_FUS3.xml": {
+      "sha256": "3726783157b710c26fe7480f4d764f31bb892daa143a63d2dacf6b8329eb47ab",
+      "vintage": "BGM_MVA_FUS3_2024"
+    },
+    "BGM_MVA_FUS5.xml": {
+      "sha256": "7ce112d7701102eb0e49744c690445897cac0c225e3e4887578f35d027245660",
+      "vintage": "BGM_MVA_FUS5_2024"
+    },
+    "BGR_MVA_FUS3.xml": {
+      "sha256": "b5763073c95e6a281042933b678774c9a74d11f0b93d7d34e02442d799f829ce",
+      "vintage": "BGR_MVA_FUS3_2024"
+    },
+    "BGR_MVA_FUS5.xml": {
+      "sha256": "92062714a388ab6a4c1de2da01fdddb04d54390267643f760e5030470cbd7aae",
+      "vintage": "BGR_MVA_FUS5_2024"
+    },
+    "BHM_MVA_FUS3.xml": {
+      "sha256": "d526ffff4915200e2a6d9701c43fd9d118a98a2d0c6ad09f3b901f47767bd8b0",
+      "vintage": "BHM_MVA_FUS3_2024"
+    },
+    "BHM_MVA_FUS5.xml": {
+      "sha256": "e7a6022ba0806308436b7fecb93c14987dd5827870b763050865edba0047bf01",
+      "vintage": "BHM_MVA_FUS5_2024"
+    },
+    "BIL_MVA_FUS3.xml": {
+      "sha256": "1aebab2397542fef4e2c00c9121a88541188bc0d419815ebeac4cdaea60baf9b",
+      "vintage": "BIL_MVA_FUS3_2025"
+    },
+    "BIL_MVA_FUS5.xml": {
+      "sha256": "9d81930606d7113d334f6b3ca257883752786a30ddb9e0f31f4f81e11160a9bc",
+      "vintage": "BIL_MVA_FUS5_2025"
+    },
+    "BIS_MVA_FUS3.xml": {
+      "sha256": "c1232086ce41c32c060b1d5f14be7b2a6ba21d8757d5c7e88fd9198b41f1a527",
+      "vintage": "BIS_MVA_FUS3_2024_v1"
+    },
+    "BIS_MVA_FUS5.xml": {
+      "sha256": "ded3e9fea7644a709f81fa4056ac435dae9833595e01790ed67314eff0f25105",
+      "vintage": "BIS_MVA_FUS5_2024_v1"
+    },
+    "BNA_MVA_FUS3.xml": {
+      "sha256": "d68277e7687de510590a7e5c4eb872b9403078b3a6c033339ff518ca014fd5f2",
+      "vintage": "BNA_MVA_FUS3_2024"
+    },
+    "BNA_MVA_FUS5.xml": {
+      "sha256": "873606144eaaea647ade0fd242f4c4e92cbfa047a19a3bfddbeb8c9e948a2970",
+      "vintage": "BNA_MVA_FUS5_2024"
+    },
+    "BOI_BZN_MVA_FUS3.xml": {
+      "sha256": "4a4c51950127e2b635de6544baa427af54a28abd8bf279aebc2e353d23720e6f",
+      "vintage": "BOI_BZN_MVA_FUS3_2025"
+    },
+    "BOI_BZN_MVA_FUS5.xml": {
+      "sha256": "ee10f54b28e4315f5680f6793144ab3df67fb8a0e711770e3ed9b71553fe3885",
+      "vintage": "BOI_BZN_MVA_FUS5_2025"
+    },
+    "BOI_MVA_FUS3.xml": {
+      "sha256": "1a19bf89cd708525d210a2946effd9df5181267d27c730ef4b2ada0e225e25a2",
+      "vintage": "BOI_MVA_FUS3_2025"
+    },
+    "BOI_MVA_FUS5.xml": {
+      "sha256": "402321ed18526f61470dbd24de7469da8ce4af9e5e1dd81b6e711a9753f890a3",
+      "vintage": "BOI_MVA_FUS5_2025"
+    },
+    "BTR_MVA_FUS3.xml": {
+      "sha256": "a7eefc3f2201ad505f9167cc7fd9a90e4a45e1b2dd0217e30f281e2b0ac02584",
+      "vintage": "BTR_MVA_FUS3_2025"
+    },
+    "BTR_MVA_FUS5.xml": {
+      "sha256": "ca1d3982da84301b56cad8649edc84a0166238dc893f1062d7a800e12e0e355f",
+      "vintage": "BTR_MVA_FUS5_2025"
+    },
+    "BTV_MVA_FUS3.xml": {
+      "sha256": "e7281cb714b2b899f00792cc912e51a73eb7814941967652900ab598e490f4d3",
+      "vintage": "BTV_MVA_FUS3_2023"
+    },
+    "BTV_MVA_FUS5.xml": {
+      "sha256": "0f39fc091431ad3db96ca60ac12c503b9118e96b1ca8105d6c4697745dc33212",
+      "vintage": "BTV_MVA_FUS5_2023"
+    },
+    "BUF_MVA_FUS3.xml": {
+      "sha256": "43b73dd507466f645898d2c5b4b917be183217f2a25c74c4f1f282f642d23098",
+      "vintage": "BUF_MVA_FUS3_2026"
+    },
+    "BUF_MVA_FUS5.xml": {
+      "sha256": "457b3fb53b5d1e49fc817b8f1a5393357eb80c614eb07e38f0f6e6117a6bcba7",
+      "vintage": "BUF_MVA_FUS5_2026"
+    },
+    "C90_MVA_FUS3.xml": {
+      "sha256": "eb37fc5f97e8d598d0a6b5f44f0f8d16594c85b8f58fd4ecd157b28090649b24",
+      "vintage": "C90_MVA_FUS3_2025"
+    },
+    "C90_MVA_FUS5.xml": {
+      "sha256": "56e71b329a53d59d9f362a8462cfa78e0cc5ceea0f8b2c5b266d5141aee4645f",
+      "vintage": "C90_MVA_FUS5_2024_v1"
+    },
+    "CAE_MVA_FUS3.xml": {
+      "sha256": "71e8e1e0afee3865defb3d13c681ba42492e93dc5f7629a0a9536a6cefc33a3f",
+      "vintage": "CAE_MVA_FUS3_2025"
+    },
+    "CAE_MVA_FUS5.xml": {
+      "sha256": "37f0f4f661a228fec3a594a64247e76e19b8c85e67f08fd7da8b80b5bcc9fdf7",
+      "vintage": "CAE_MVA_FUS5_2025"
+    },
+    "CHA_MVA_FUS3.xml": {
+      "sha256": "032bc2d978a58abcab50f97fd371f2ac819b627c965d5859b57bc97ea86e0de9",
+      "vintage": "CHA_MVA_FUS3_2024"
+    },
+    "CHA_MVA_FUS5.xml": {
+      "sha256": "7d5a572446a1e94381d98c300c991d584448b52427281f278843a50abea54ed3",
+      "vintage": "CHA_MVA_FUS5_2024"
+    },
+    "CHS_MVA_FUS3.xml": {
+      "sha256": "e3be7ef1d0ec678fb915d94a8bcad617b72cab5b5331ba16f84adae00cd7cde8",
+      "vintage": "CHS_MVA_FUS3_2026"
+    },
+    "CHS_MVA_FUS5.xml": {
+      "sha256": "5aabc173a7f745da6a786ed2898002d47f36260709722f4aad285a0918454ed3",
+      "vintage": "CHS_MVA_FUS5_2026"
+    },
+    "CID_MVA_FUS3.xml": {
+      "sha256": "c98dc3c68f7466103a3b12a088b26457e2e1ec8f6b752fb66bdc70b7850f5ea7",
+      "vintage": "CID_MVA_FUS3_2024"
+    },
+    "CID_MVA_FUS5.xml": {
+      "sha256": "62b498512fd7d6ee32f50e162d1d55c224a9db0c2cc9637bf53211e917ba9058",
+      "vintage": "CID_MVA_FUS5_2024"
+    },
+    "CKB_MVA_FUS3.xml": {
+      "sha256": "d56033ccec391d187ff6df846cfec0eca1fdbed019965e4ea23ffbb546083593",
+      "vintage": "CKB_MVA_FUS3_2024"
+    },
+    "CKB_MVA_FUS5.xml": {
+      "sha256": "a41028ccce7e4ff88e110fe4e4d2cad450b910aa97bb1562f00561dc5370252f",
+      "vintage": "CKB_MVA_FUS5_2024"
+    },
+    "CLE_MVA_FUS3.xml": {
+      "sha256": "5bbbc0ed940a2774e0fb717426f795a9639a1349faed53c19c0e9e51e9d7569d",
+      "vintage": "CLE_MVA_FUS3_2026"
+    },
+    "CLT_MVA_FUS3.xml": {
+      "sha256": "f62c2f20c82177bcc8a29877a550d0fb114d59ba3b33e1ccc59614274c3e2996",
+      "vintage": "CLT_MVA_FUS3_2025"
+    },
+    "CLT_MVA_FUS5.xml": {
+      "sha256": "9fc7c4cb9665a1449808ed72af24678a473312da9d6f836e17adb46863d8013b",
+      "vintage": "CLT_MVA_FUS5_2025"
+    },
+    "CMH_MVA_FUS3.xml": {
+      "sha256": "ddbeb154788de0247c0866e2a400aef7fe4de70d7edf47926b505f1c63995450",
+      "vintage": "CMH_MVA_FUS3_2024"
+    },
+    "CMH_MVA_FUS5.xml": {
+      "sha256": "40af380b0db3a6b09cc2b6f53531d32bbcf572d1d1f806563068962368998b96",
+      "vintage": "CMH_MVA_FUS5_2024"
+    },
+    "CMI_MVA_FUS3.xml": {
+      "sha256": "ba1e24effe24cfc7b2e0a6c3dd8767d1baaeab40472df882ed4cabe73327a982",
+      "vintage": "CMI_MVA_FUS3_2024"
+    },
+    "CMI_MVA_FUS5.xml": {
+      "sha256": "c1c9731d67d884c21d0a5ab7a7cc4aaa6d04969bc020d0e87cbce09b0ae17374",
+      "vintage": "CMI_MVA_FUS5_2024"
+    },
+    "COS_MVA_FUS3.xml": {
+      "sha256": "b970e46bd6833a18aa474547624053b4ecba182285e67a9da31d0f361b44a210",
+      "vintage": "COS_MVA_FUS3_2024"
+    },
+    "COS_MVA_FUS5.xml": {
+      "sha256": "7dee9e7e46a779dfa93aa2eba655683ad5163edf7e038e9c46a2fff1c124a7e8",
+      "vintage": "COS_MVA_FUS5_2024"
+    },
+    "CPR_MVA_FUS3.xml": {
+      "sha256": "35b125b3520216b067966f896cfd2d41e9915646415e580512a80c5f46f7fc08",
+      "vintage": "CPR_MVA_FUS3_2025"
+    },
+    "CPR_MVA_FUS5.xml": {
+      "sha256": "e4e932e91c4a498e61891dc2a73e0fa93c028933b727794842c0d9288cc29bc4",
+      "vintage": "CPR_MVA_FUS5_2025"
+    },
+    "CRP_MVA_FUS3.xml": {
+      "sha256": "214b8868a798a898c54be8c547710d9e2181f0190958578a2c4ed6f673efbeb5",
+      "vintage": "CRP_MVA_FUS3_2024_v1"
+    },
+    "CRP_MVA_FUS5.xml": {
+      "sha256": "b4a6c9e06fcc1812eb63864492009d1ed3977f27344da671f8d11f9b7be3f295",
+      "vintage": "CRP_MVA_FUS5_2024"
+    },
+    "CRW_MVA_FUS3.xml": {
+      "sha256": "2ad6ceedc06e789af21a41b6f43a7bd337be6faa426eef6d7407f4d21917a6a2",
+      "vintage": "CRW_MVA_FUS3_2024"
+    },
+    "CRW_MVA_FUS5.xml": {
+      "sha256": "4cbd84b43e99839fb4d130abbe697ffdac2a0cbb253b6da94d22fcc63bf53850",
+      "vintage": "CRW_MVA_FUS5_2024"
+    },
+    "CVG_MVA_FUS3.xml": {
+      "sha256": "2cd423341ef78eed348dade50687bc196c58e8fc0e465ae4a7adc69c3f1e074e",
+      "vintage": "CVG_MVA_FUS3_2025"
+    },
+    "CVG_MVA_FUS5.xml": {
+      "sha256": "4941d6579954f1779f9fcca764a34957184c959b1bc0c3626fbb950bc47bee13",
+      "vintage": "CVG_MVA_FUS5_2025"
+    },
+    "D01_DEN_PUB_GJT_MVA_FUS5.xml": {
+      "sha256": "bfd100a212d36f03425e652a9431a7bbb1205d4b184d784562a24d8407290cf1",
+      "vintage": "D01_DEN_PUB_GJT_MVA_FUS5_2025"
+    },
+    "D01_DEN_PUB_MVA_FUS3.xml": {
+      "sha256": "dbea6fb2a6e28cbebd500152ba1407f93746c952e17de11b62941d1111c6daee",
+      "vintage": "D01_DEN_PUB_MVA_FUS3_2025"
+    },
+    "D01_GJT_MVA_FUS3.xml": {
+      "sha256": "fa69c40d39bcc6bcb36601d5303fb05cd73b55bee2798a55ab27f58d56a778b8",
+      "vintage": "D01_GJT_MVA_FUS3_2025"
+    },
+    "D10_MVA_FUS3.xml": {
+      "sha256": "2458daf8b3f6eb6cdc156b37628ac85220fb2a5ba337fc2d4f2b100a86bb3e29",
+      "vintage": "D10_MVA_FUS3_2024"
+    },
+    "D10_MVA_FUS5.xml": {
+      "sha256": "6e50dcc01a32f43cc66faf22fddcc490e1f7f5d1674f567165562eda25858daf",
+      "vintage": "D10_MVA_FUS5_2024"
+    },
+    "D21_MVA_FUS3.xml": {
+      "sha256": "4df8f135e3d385a1a09814c305a5c588b746696bb8a7b0ef561c25c82563e546",
+      "vintage": "D21_MVA_FUS3_2024"
+    },
+    "D21_MVA_FUS5.xml": {
+      "sha256": "6c878921d6ac19d25cea63a8e4da5cc9fb8e81134bcb90a70d4b97b5ef33db8a",
+      "vintage": "D21_MVA_FUS5_2024"
+    },
+    "DAB_MVA_FUS3.xml": {
+      "sha256": "5dd4f431dba9ad19e3743bdcc154db2014828a927114e909903df20bcfe6ef7b",
+      "vintage": "DAB_MVA_FUS3_2024"
+    },
+    "DAB_MVA_FUS5.xml": {
+      "sha256": "400395a4156b3ef96bfca84124e66bb04dec205afe7795efb48b5cd5fbd78e7e",
+      "vintage": "DAB_MVA_FUS5_2024"
+    },
+    "DLH_MVA_FUS3.xml": {
+      "sha256": "95c0ef362f4203581e64c57cd67f10b3dc1c873699e0de14ca3cae1506a566d2",
+      "vintage": "DLH_MVA_FUS3_2025"
+    },
+    "DLH_MVA_FUS5.xml": {
+      "sha256": "6d8439389f9dedc14a76fab356b4715af3960c5d4bb5c2d5292718d92fc4f98a",
+      "vintage": "DLH_MVA_FUS5_2025"
+    },
+    "DSM_MVA_FUS3.xml": {
+      "sha256": "3cbd64ffe5357e99dfae4319de469782402ef706aa1578472c67dbcc3952132f",
+      "vintage": "DSM_MVA_FUS3_2024_v1"
+    },
+    "DSM_MVA_FUS5.xml": {
+      "sha256": "ee2b72131724cf343068627a15764ecea99ad29f2cbbe52e800a42df1507662f",
+      "vintage": "DSM_MVA_FUS5_2024_v1"
+    },
+    "ELM_MVA_FUS3.xml": {
+      "sha256": "d68652213bc51dac2384048b797b1f52a6079455e4be2c661ee94527520df12d",
+      "vintage": "ELM_MVA_FUS3_2023"
+    },
+    "ELM_MVA_FUS5.xml": {
+      "sha256": "f9d0149e7f1220934d4b1e4a90e863db1f908c914863351175449c17726ec8e1",
+      "vintage": "ELM_MVA_FUS5_2023"
+    },
+    "ELP_MVA_FUS3.xml": {
+      "sha256": "35de8ef8a38914c9f1f5a37f33c49916807ae2ba66607036fc4df1f53465a737",
+      "vintage": "ELP_MVA_FUS3_2024"
+    },
+    "ELP_MVA_FUS5.xml": {
+      "sha256": "3e8cdeee2ec91c2686cb3aeccb89ed068e8e0bac4d12a331a1f631b5fa108e50",
+      "vintage": "ELP_MVA_FUS5_2024"
+    },
+    "EUG_MVA_FUS3.xml": {
+      "sha256": "638410088c434c98c6cdb36b34b289fdf2fe318727b406cdb59e761df125d34b",
+      "vintage": "EUG_MVA_FUS3_2023"
+    },
+    "EUG_MVA_FUS5.xml": {
+      "sha256": "8b928018e9b2584fe196268dcf7b3da5784d5a682ce1bd8ffeafc1ea3e9be5ff",
+      "vintage": "EUG_MVA_FUS5_2023"
+    },
+    "EVV_MVA_FUS3.xml": {
+      "sha256": "e1a9986e79e2cefa0ebf84ae90d5f9c8b59c39a271fd508fd46e4cb8326e8a85",
+      "vintage": "EVV_MVA_FUS3_2026"
+    },
+    "EVV_MVA_FUS5.xml": {
+      "sha256": "8d3112c118ed252fade959f91a0041a46cf52ef554fd0c8a7e180e7575fe1dda",
+      "vintage": "EVV_MVA_FUS5_2026"
+    },
+    "F11_MVA_FUS3.xml": {
+      "sha256": "72c4aac755ba61ce5218cb01fa3decefcc13425617fd184b8520ffe0d6146ba4",
+      "vintage": "F11_MVA_FUS3_2024"
+    },
+    "F11_MVA_FUS5.xml": {
+      "sha256": "9c162db6f20006ba07c1058b38ac86d9e25d99e5da4540d041c93cc9cc1d3d55",
+      "vintage": "F11_MVA_FUS5_2024"
+    },
+    "FAI_MVA_FUS3.xml": {
+      "sha256": "2900d39c27a980092b0e6ff096e0b27b464a7c4380fcfd57aade707c28fec202",
+      "vintage": "FAI_MVA_FUS3_2024"
+    },
+    "FAI_MVA_FUS5.xml": {
+      "sha256": "4a260e7d913eef21d1899371c46ffd865526b7e227b34855051a05d064244bdd",
+      "vintage": "FAI_MVA_FUS5_2024"
+    },
+    "FAR_MVA_FUS3.xml": {
+      "sha256": "1fd758f10f31f37d7cf26eb158bbf166bf3636f1241cc6df13249e5731decc79",
+      "vintage": "FAR_MVA_FUS3_2024"
+    },
+    "FAR_MVA_FUS5.xml": {
+      "sha256": "be6b8b9d3002aae72e492e6ec07128ea776be2bafbcc672f6f457d701f9e6ee1",
+      "vintage": "FAR_MVA_FUS5_2024"
+    },
+    "FAT_MVA_FUS3.xml": {
+      "sha256": "f84eb1b7db82936643dd49271788790fb2acffb25d08a2b6ed7b1da11d30ee5f",
+      "vintage": "FAT_MVA_FUS3_2024"
+    },
+    "FAT_MVA_FUS5.xml": {
+      "sha256": "d131fde4b4d6e8708633e90aba51703a7ed795cd07245eb72c10803b1aad57c7",
+      "vintage": "FAT_MVA_FUS5_2024"
+    },
+    "FAY_MVA_FUS3.xml": {
+      "sha256": "fbae8c4619d85e176d1449895e11f2ed885c58c69b152ee8decc41fad6beed6e",
+      "vintage": "FAY_MVA_FUS3_2024"
+    },
+    "FAY_MVA_FUS5.xml": {
+      "sha256": "47dc6df244a93ec44382648f1a71151779af3a7910afa75e8933f2fd18307509",
+      "vintage": "FAY_MVA_FUS5_2024"
+    },
+    "FLO_MVA_FUS3.xml": {
+      "sha256": "c96f1ffbca44f003c7845b618c91caa12fafc0ff0887eddc69acb25ec57b857b",
+      "vintage": "FLO_MVA_FUS3_2024"
+    },
+    "FLO_MVA_FUS5.xml": {
+      "sha256": "7f23c9771ad98adb54bfe7bf5b057ee4fa39d87d2c3dd9c834387260d0bed40a",
+      "vintage": "FLO_MVA_FUS5_2025"
+    },
+    "FSD_MVA_FUS3.xml": {
+      "sha256": "52c32d0183abafbd96e80639bb855603830b100161a7dcd275f198393ce6616b",
+      "vintage": "FSD_MVA_FUS3_2024"
+    },
+    "FSD_MVA_FUS5.xml": {
+      "sha256": "013092ce236329e00969bd1a255712e866654def64418a16f7669469a79958e4",
+      "vintage": "FSD_MVA_FUS5_2024"
+    },
+    "GEG_MSO_MVA_FUS3.xml": {
+      "sha256": "d0353d52921795331cb0698ad54dcd068464953320d8c4ef758b877454438ed1",
+      "vintage": "GEG_MSO_MVA_FUS3_2024"
+    },
+    "GEG_MSO_MVA_FUS5.xml": {
+      "sha256": "8da69a3cca89ec92c929bb53fb0880239f1c39b64c88824283dfe5c577674c1e",
+      "vintage": "GEG_MSO_MVA_FUS5_2024"
+    },
+    "GEG_MVA_FUS3.xml": {
+      "sha256": "7073096e4956accee8c50d3f6eaf8b640a601e4d3ccba6a56ee64f6f90e61b31",
+      "vintage": "GEG_MVA_FUS3_2024"
+    },
+    "GEG_MVA_FUS5.xml": {
+      "sha256": "c43e8623fc53db861ded3c2ec29c81dce14967a86d6bbfa852686d0d929f6f26",
+      "vintage": "GEG_MVA_FUS5_2024"
+    },
+    "GEG_PSC_MVA_FUS3.xml": {
+      "sha256": "f052ccaa6280c42feabf4d387ae583bfee8ac479dee33d4ccd51322130b9dd26",
+      "vintage": "GEG_PSC_MVA_FUS3_2024"
+    },
+    "GEG_PSC_MVA_FUS5.xml": {
+      "sha256": "009c7dbc5f9503d471cabecf136ac60d661eed51c9f0bb2a02c0fc4db48675a3",
+      "vintage": "GEG_PSC_MVA_FUS5_2024"
+    },
+    "GGG_MVA_FUS3.xml": {
+      "sha256": "37948c149cbc6d94d276237fe6b92188882e387a23766b5ec39d5769e98de019",
+      "vintage": "GGG_MVA_FUS3_2025"
+    },
+    "GGG_MVA_FUS5.xml": {
+      "sha256": "6ce2ef37d6d164583319fdc956c46d07e0616fbdf864ff545f4638d2080d5a57",
+      "vintage": "GGG_MVA_FUS5_2025"
+    },
+    "GPT_MVA_FUS3.xml": {
+      "sha256": "f602de760f339bcc047e6752d29fc80f264ea4eca7fe2923977c2615d5cf1041",
+      "vintage": "GPT_MVA_FUS3_2024"
+    },
+    "GPT_MVA_FUS5.xml": {
+      "sha256": "3d167e834ebfb7fb40cbd2559c238d00e16e113f5d95f3f7a0b46be577652e9d",
+      "vintage": "GPT_MVA_FUS5_2024"
+    },
+    "GRB_MVA_FUS3.xml": {
+      "sha256": "595128d8f9eff1acbc64fcb9689fa53b25653f6dddc19cd9bb065b3b0b417579",
+      "vintage": "GRB_MVA_FUS3_2024"
+    },
+    "GRB_MVA_FUS5.xml": {
+      "sha256": "4da02b8eac68b8ba900eda5520697a7f486c63c4ede06f13e22fac2bc4b3aa6f",
+      "vintage": "GRB_MVA_FUS5_2024"
+    },
+    "GSO_MVA_FUS3.xml": {
+      "sha256": "c625e8265516cc38c4234c12a6fe00e3f7fca5b0f6770105e1b08a09ae10ccd4",
+      "vintage": "GSO_MVA_FUS3_2024"
+    },
+    "GSO_MVA_FUS5.xml": {
+      "sha256": "d25a05f3e5bf7db814b098b6aad01df9b54b868ad20605ca736c65d83dd994ed",
+      "vintage": "GSO_MVA_FUS5_2024"
+    },
+    "GSP_MVA_FUS3.xml": {
+      "sha256": "ac12d6930f84895fcc573149b6966bfbab06fa14be3cb94770207469e1dd800b",
+      "vintage": "GSP_MVA_FUS3_2024"
+    },
+    "GSP_MVA_FUS5.xml": {
+      "sha256": "c4fb7f15645c8b49d2382af069cb3a0471c0dc6b31ceb11f3d2e0bd887eed4b7",
+      "vintage": "GSP_MVA_FUS5_2024"
+    },
+    "GTF_MVA_FUS3.xml": {
+      "sha256": "4bf081b77d4012d92fbc39d92514a8f9e54cc1455f18a20ec93ca302ae029569",
+      "vintage": "GTF_MVA_FUS3_2024"
+    },
+    "GTF_MVA_FUS5.xml": {
+      "sha256": "e5cbb79c6d44d193fa63a83f511d027d22d3405c79a1304f8235fbaf441d0615",
+      "vintage": "GTF_MVA_FUS5_2024"
+    },
+    "HLN_MVA_MULTI.xml": {
+      "sha256": "4a3a015ff156289c7f47461e23a37efd4fa17dac841e52f7a4b454bf6b08274a",
+      "vintage": "HLN_MVA_MULTI_2025"
+    },
+    "HLN_MVA_VOR.xml": {
+      "sha256": "13194e9265e5d3071b4b1c3577ad6811c0dc55cc22b60800744890d3904ffd8b",
+      "vintage": "HLN_MVA_VOR_2025"
+    },
+    "HSV_MVA_FUS3.xml": {
+      "sha256": "0361d2306a63b35453a28d986394096cbbc22defaa7ae8b24580876df7da5185",
+      "vintage": "HSV_MVA_FUS3_2025_v1"
+    },
+    "HSV_MVA_FUS5.xml": {
+      "sha256": "4c575e83ac1d05dd88d5a7fee365afd6cbf4b8fb2d5fae4ba4b81be658474840",
+      "vintage": "HSV_MVA_FUS5_2025_v1"
+    },
+    "HTS_MVA_FUS3.xml": {
+      "sha256": "527a61faece610ae6df47b5287bcb9397f06fab2a676a32ac1d5ec36503e5130",
+      "vintage": "HTS_MVA_FUS3_2024"
+    },
+    "HTS_MVA_FUS5.xml": {
+      "sha256": "dea1946ea4c0b125ffe3fefc967e732e4700f1e5e14daeacb3a269844841b1a2",
+      "vintage": "HTS_MVA_FUS5_2024"
+    },
+    "HUF_MVA_FUS3.xml": {
+      "sha256": "3708da649d5510e1a6d981514ee189e03a54362a36d94ca58b4b74c4ee083c50",
+      "vintage": "HUF_MVA_FUS3_2024"
+    },
+    "HUF_MVA_FUS5.xml": {
+      "sha256": "b287f7a28b4e77ae5ab52250dc7ca6e72a46699d1dbb8f5c5369c55c57014421",
+      "vintage": "HUF_MVA_FUS5_2024"
+    },
+    "I90_MVA_FUS3.xml": {
+      "sha256": "ae64af776cbb20b851651d20073cf35c73c589d5cd47e90c4d37b52f6d5aab8b",
+      "vintage": "I90_MVA_FUS3_2025_v1"
+    },
+    "I90_MVA_FUS5.xml": {
+      "sha256": "01df2491fed1fe4b15eeee3f7a701a2454adeee28462010ebfdaac03da56c670",
+      "vintage": "I90_MVA_FUS5_2025_v1"
+    },
+    "ICT_MVA_FUS3.xml": {
+      "sha256": "175b18d62a13c39763039841b024964cf89bb472eee63d3ce5b4843beaac8742",
+      "vintage": "ICT_MVA_FUS3_2025"
+    },
+    "ICT_MVA_FUS5.xml": {
+      "sha256": "74dad5e0a1626a619f7f08ddc6f9c31bc5a772bed9366046b2e13a6516b98a6d",
+      "vintage": "ICT_MVA_FUS5_2025"
+    },
+    "ILM_MVA_FUS3.xml": {
+      "sha256": "4796b5ccd94e4d4549439003d17e1af87fac2f1f73e111fe9ce67ffd6e391c9c",
+      "vintage": "ILM_MVA_FUS3_2025"
+    },
+    "ILM_MVA_FUS5.xml": {
+      "sha256": "94fc374996c4263f2ce5c9368494157c01b6506e80b1cfdb1c70e12984fd2ead",
+      "vintage": "ILM_MVA_FUS5_2025"
+    },
+    "IND_MVA_FUS3.xml": {
+      "sha256": "177baa7283a3f52b83248644c0d8a6179d3d6f7bcb557f6e70288638147f7ea0",
+      "vintage": "IND_MVA_FUS3_2024"
+    },
+    "IND_MVA_FUS5.xml": {
+      "sha256": "f88b9c81c5a4971cb7b1e1933d5475dcb99e392bb7f2630abee1566b6e8b52fc",
+      "vintage": "IND_MVA_FUS5_2025"
+    },
+    "JAN_MVA_FUS3.xml": {
+      "sha256": "6e0553fea8a5d94aa70db55d0277de2078c8c7240888e749b3c74c4e083ab85f",
+      "vintage": "JAN_MVA_FUS3_2024"
+    },
+    "JAN_MVA_FUS5.xml": {
+      "sha256": "cb8f0b687e2381b3f34f71428993060b5283f84c50ad8815f5055469bf061e2f",
+      "vintage": "JAN_MVA_FUS5_2024"
+    },
+    "JAX_MVA_FUS3.xml": {
+      "sha256": "c364bbb7212c5ecc8924b283378b97932faa0550a37323987963e975d2169c77",
+      "vintage": "JAX_MVA_FUS3_2025"
+    },
+    "JAX_MVA_FUS5.xml": {
+      "sha256": "71056f5e08628ba6fea479cbe0b3517ce3361993b7975daa0b005ba25ab57d1a",
+      "vintage": "JAX_MVA_FUS5_2025"
+    },
+    "JCF_EDW_MVA.xml": {
+      "sha256": "e624ab3c953446f3304392b3b9486b324fdde5ce45103aba790229d2eb16a12a",
+      "vintage": "JCF_EDW_MVA_2022"
+    },
+    "JCF_MVA_FUS3.xml": {
+      "sha256": "ec5d29bb67c40d562ddd747cdd57b1205d002409669b6a62b5ce09c164dbb891",
+      "vintage": "JCF_MVA_FUS3_2024"
+    },
+    "JCF_MVA_FUS5.xml": {
+      "sha256": "e8a70280609d597f52d88a3fd30d2816f2be1a86921a299dda22c18978b6637c",
+      "vintage": "JCF_MVA_FUS5_2024"
+    },
+    "L30_LAS_MVA.xml": {
+      "sha256": "ff6d494d7536ba4a9723dd8b77d25d72039473d95a4d450429b5a1fafd64f023",
+      "vintage": "L30_LAS_MVA_2024"
+    },
+    "L30_MVA_FUS3.xml": {
+      "sha256": "eb2ae2b0b47e4e5fea6cd4df44aeb0f76d10a2195127fdf117fcc40859ce2122",
+      "vintage": "L30_MVA_FUS3_2024"
+    },
+    "L30_QAS_MVA.xml": {
+      "sha256": "ec7d41a25043d487d0afbdb2da6b31c7bd0d255c0da90333d98d0ae52db43f07",
+      "vintage": "L30_QAS_MVA_2024"
+    },
+    "LBB_MVA_FUS3.xml": {
+      "sha256": "456aa92873aab97d753a8a3e1a8d8814d9a71d92ba8f9c1c14fec7d4a1f59aee",
+      "vintage": "LBB_MVA_FUS3_2025"
+    },
+    "LBB_MVA_FUS5.xml": {
+      "sha256": "3ad7a06182714fded24ab7630f0d73b787cbad8bcf7153a6d421698468631b53",
+      "vintage": "LBB_MVA_FUS5_2025"
+    },
+    "LCH_MVA_FUS3.xml": {
+      "sha256": "3d3c37fe1aae939f4a6e642a7ce13bc9658efae9b9e3e50c1b24d0bde94346c5",
+      "vintage": "LCH_MVA_FUS3_2024"
+    },
+    "LCH_MVA_FUS5.xml": {
+      "sha256": "c993bd034264bc89bbee8bbd100fe24d55592dd5f8dc8c158734dceeb2a7349f",
+      "vintage": "LCH_MVA_FUS5_2024"
+    },
+    "LEX_MVA_FUS3.xml": {
+      "sha256": "578e823344eedb9b6060b7ff08633f9652710e41baff090cc853cc36d71941a8",
+      "vintage": "LEX_MVA_FUS3_2025"
+    },
+    "LEX_MVA_FUS5.xml": {
+      "sha256": "b3a568501c0f0dc0867bcbc8dfe71b362ae4635d7e35ee17c428a0533b6049a7",
+      "vintage": "LEX_MVA_FUS5_2023"
+    },
+    "LFT_MVA_FUS3.xml": {
+      "sha256": "becba875ca3a5004c81f09ee39e456ba1f1fb13052666220fa73e60b73027600",
+      "vintage": "LFT_MVA_FUS3_2024"
+    },
+    "LFT_MVA_FUS5.xml": {
+      "sha256": "19a074678ff924ace2bee2eec4d9bd8db953637f03583c24370c8804a01e6006",
+      "vintage": "LFT_MVA_FUS5_2024"
+    },
+    "LIT_MVA_FUS3.xml": {
+      "sha256": "92cb4affde4687eb927d1b8bd946d762d438aa0cc7e2b04b5245762dd3f039a9",
+      "vintage": "LIT_MVA_FUS3_2024"
+    },
+    "LIT_MVA_FUS5.xml": {
+      "sha256": "f8f711d6658801f47a03626217a841e4c246bb38e4b6fd2ddd07e58597b11580",
+      "vintage": null
+    },
+    "M03_MVA_FUS3.xml": {
+      "sha256": "90e26909690e0d04c99da4fde0a4b9c89d9a815a312ba5ef6cfca7d7c595997f",
+      "vintage": "M03_MVA_FUS3_2024"
+    },
+    "M03_MVA_FUS5.xml": {
+      "sha256": "7624db5d4c2edd2b161395ba06284035a979c7de327987a5ad6520986679d518",
+      "vintage": "M03_MVA_FUS5_2024"
+    },
+    "M98_MVA_FUS3.xml": {
+      "sha256": "6c4fc509152b1f5917d0ee80013d3097c9834572f4bf49afcb171692f4bac992",
+      "vintage": "M98_MVA_FUS3_2025"
+    },
+    "M98_MVA_FUS5.xml": {
+      "sha256": "4d838e513dc659932d94b4d42e562578b9b866094ab50c7d31c14cf4e84f8040",
+      "vintage": "M98_MVA_FUS5_2025"
+    },
+    "MAF_MVA_FUS3.xml": {
+      "sha256": "87b9100abed2d055ca5fe04abd3e4c6da8612f8e79b376c5d2e6a21196fc68a8",
+      "vintage": "MAF_MVA_FUS3_2024_v1"
+    },
+    "MAF_MVA_FUS5.xml": {
+      "sha256": "3ca5b45152f71d0ce6803e574d3132005136312d5f97f61b9a1405e9e8f1a042",
+      "vintage": "MAF_MVA_FUS5_2024_v1"
+    },
+    "MCI_MVA_FUS3.xml": {
+      "sha256": "6cf49acab0eae0537d9527ab72cb3d953c969043846376db131c3bd59a22e600",
+      "vintage": "MCI_MVA_FUS3_2025"
+    },
+    "MCI_MVA_FUS5.xml": {
+      "sha256": "f158e2ca9be8a8446db07464451cf35d209971dba0c0cf498a37f015f2e553eb",
+      "vintage": "MCI_MVA_FUS5_2025"
+    },
+    "MDT_MVA_FUS3.xml": {
+      "sha256": "4f0b0b477335875d0c1ef6eb15aaa5c35f44b13b308d909efd56339be233f11c",
+      "vintage": "MDT_MVA_FUS3_2024"
+    },
+    "MDT_MVA_FUS5.xml": {
+      "sha256": "9d474645b59a5d2df228af71f37c5867bb1b2d7a1fe2fa07f2c987336620ab83",
+      "vintage": "MDT_MVA_FUS5_2024"
+    },
+    "MGM_MVA_FUS3.xml": {
+      "sha256": "62be30633f5762dd7a9653be732e8e4abeda3327d98d74f6c9a2683b470a86c3",
+      "vintage": "MGM_MVA_FUS3_2024"
+    },
+    "MGM_MVA_FUS5.xml": {
+      "sha256": "bdcbde1f18bf0cd84486f5af5a6e10e25a397bd174cbea096d9fa06e5eb24a30",
+      "vintage": "MGM_MVA_FUS5_2024"
+    },
+    "MIA_MVA_FUS3.xml": {
+      "sha256": "17826018ea28949e9b6b50d7821f0e376bf4050e68368925c6c7c690f609aac1",
+      "vintage": "MIA_MVA_FUS3_2025_v2"
+    },
+    "MIA_MVA_FUS5.xml": {
+      "sha256": "766e4e86951dd7fb0b990d8ced7defa7b7b2ffe98364a80a6aa0477c0cc05d0f",
+      "vintage": "MIA_MVA_FUS5_2025_v2"
+    },
+    "MKE_MVA_FUS3.xml": {
+      "sha256": "dcbf830cb2cf78482735fa8a05b2acdd575c1c2e411256ba87631528fb554e83",
+      "vintage": "MKE_MVA_FUS3_2024"
+    },
+    "MKE_MVA_FUS5.xml": {
+      "sha256": "4be5cd0493bec376d1db56043a87104201a37b06cecac98e3241ae9301745adc",
+      "vintage": "MKE_MVA_FUS5_2024"
+    },
+    "MLI_MVA_FUS3.xml": {
+      "sha256": "cab98056673be7094e45b293b81c4429b3b3c53ae84d89d33b874fbf3002a9dc",
+      "vintage": "MLI_MVA_FUS3_2024"
+    },
+    "MLI_MVA_FUS5.xml": {
+      "sha256": "38ff2fc7d51d02bb62558a0926116eff094229c0dbdafd51d7a27b954b896bca",
+      "vintage": "MLI_MVA_FUS5_2025"
+    },
+    "MLU_MVA_FUS3.xml": {
+      "sha256": "a27ce6c129e5dbdcaffff038e4c51a294bac9a4b6a7916dd3a69c61ff01f2f1b",
+      "vintage": "MLU_MVA_FUS3_2024"
+    },
+    "MLU_MVA_FUS5.xml": {
+      "sha256": "93d5b89fba0c22453f494c91123f9d06d9b288b5a85a10171c11f3ead693aa1f",
+      "vintage": "MLU_MVA_FUS5_2024"
+    },
+    "MOB_MVA_FUS3.xml": {
+      "sha256": "ed886986084d41e627caac3c670e93fe50fae779fa2790ceb5313ed76940a7f9",
+      "vintage": "MOB_MVA_FUS3_2024"
+    },
+    "MOB_MVA_FUS5.xml": {
+      "sha256": "0f4161422d033dd2594c8e74fd908dd64bcceb0c47e19209b2cab195f2a3aa17",
+      "vintage": "MOB_MVA_FUS5_2024"
+    },
+    "MSN_MVA_FUS3.xml": {
+      "sha256": "c31e4a96d22de662f380a2a29bb22826408bcb9db6309c2cf562ba84fb88f008",
+      "vintage": "MSN_MVA_FUS3_2024"
+    },
+    "MSN_MVA_FUS5.xml": {
+      "sha256": "b795665ca19c9ba7d3ea213698f6e7955aea888849e3e551d5a326cc7a64aa5f",
+      "vintage": "MSN_MVA_FUS5_2024"
+    },
+    "MSY_MVA_FUS3.xml": {
+      "sha256": "3c625cb04eb22afd5d316b34510120261924090280f0a7b2771a3c76df1af9fb",
+      "vintage": "MSY_MVA_FUS3_2024"
+    },
+    "MSY_MVA_FUS5.xml": {
+      "sha256": "f79d229ba7a3510e224d1787b995ee3ee2821aa171543b860e612fb3c10f5081",
+      "vintage": "MSY_MVA_FUS5_2024"
+    },
+    "MWH_MVA_FUS3.xml": {
+      "sha256": "4f6ed9606c2f86a02a24ea5f829c02bb9aae038b4583ea8f9552d50dff09ff71",
+      "vintage": "MWH_MVA_FUS3_2024"
+    },
+    "MWH_MVA_FUS5.xml": {
+      "sha256": "de7035cd600f2b13c69a8722f79d3ff10d088310a94f57573b93a359b6375400",
+      "vintage": "MWH_MVA_FUS5_2024"
+    },
+    "MYR_MVA_FUS3.xml": {
+      "sha256": "09f1b129b05105af4c8bf3e0f2b4b80f837230422788035f543d9d0556484449",
+      "vintage": "MYR_MVA_FUS3_2025"
+    },
+    "MYR_MVA_FUS5.xml": {
+      "sha256": "4b685bed37b8f97a02d22fed83b830cd33e7cac018ac7e152ce5b670ee6a923d",
+      "vintage": "MYR_MVA_FUS5_2025"
+    },
+    "N90_MVA_FUS3.xml": {
+      "sha256": "0dc3e206d08cf8afedc1cd3f006701340f30c4bd5193547255ae376301218e19",
+      "vintage": "N90_MVA_FUS3_2025_v1"
+    },
+    "N90_MVA_FUS5.xml": {
+      "sha256": "1d8f127da6cf1303a807675f22725a1ec241a7fb5d06f9b8466ab952271240ef",
+      "vintage": "N90_MVA_FUS5_2025"
+    },
+    "NCT_MVA_FUS3.xml": {
+      "sha256": "3777ce91224417b589959b25b4cd3d7c89eed7718283104c52176984fb7f65bf",
+      "vintage": "NCT_MVA_FUS3_2025"
+    },
+    "NCT_MVA_FUS5.xml": {
+      "sha256": "4294a8d881040c0175ce78a8edef70b477b798acf331aa8cc838555f0c08286b",
+      "vintage": "NCT_MVA_FUS5_2025"
+    },
+    "OKC_MVA_FUS3.xml": {
+      "sha256": "9285318ac149a08425cdb890bdc30ad46c92c02925400d24ae8469b66994f2a8",
+      "vintage": "OKC_MVA_FUS3_2025"
+    },
+    "OKC_MVA_FUS5.xml": {
+      "sha256": "22f317cfada6e5475f3146da04d78904b97afdcc3bb2bb7cfa8bf2aedd03f9fc",
+      "vintage": "OKC_MVA_FUS5_2025"
+    },
+    "ORF_MVA_FUS3.xml": {
+      "sha256": "5f5e0fa7e72f0d376a1137fddb56a7cd6d23f0cbce0c8c1cebef411aab0e7600",
+      "vintage": "ORF_MVA_FUS3_2024_v2"
+    },
+    "ORF_MVA_FUS5.xml": {
+      "sha256": "c67d2b593e7c91eb0f579d26c6b9b8740547629fcd7a381982904695db2136c6",
+      "vintage": "ORF_MVA_FUS5_2025"
+    },
+    "P31_MVA_FUS3.xml": {
+      "sha256": "36b3d4ad976b11489342e712ecf593c1fac24f74076d456ab0afe8b7a670f9ca",
+      "vintage": "P31_MVA_FUS3_2024"
+    },
+    "P31_MVA_FUS5.xml": {
+      "sha256": "be069de87b84fb6e7030c8d01930d50c44196fb19e1fa6c11ae7f1fb518e31cb",
+      "vintage": "P31_MVA_FUS5_2024_v1"
+    },
+    "P50_MVA_FUS3.xml": {
+      "sha256": "b6cf0e61671b48df1d6a89738cfce289954a926d681dd228d157bb7d815919c8",
+      "vintage": "P50_MVA_FUS3_2025"
+    },
+    "P50_MVA_FUS5.xml": {
+      "sha256": "b988596c6916b7122ff4e69b4981c3d913893ee700a15397c1a612a0425353b2",
+      "vintage": "P50_MVA_FUS5_2025"
+    },
+    "P80_MVA_FUS3.xml": {
+      "sha256": "5ec29f2a891695d16081d077dffc2c6c8e0f1b463cb342b823784e162eaacece",
+      "vintage": "P80_MVA_FUS3_2024"
+    },
+    "P80_MVA_FUS5.xml": {
+      "sha256": "d160e5b93d1dd66f3b70c4740891fbc66ee900ad135baaa1ea04feea9f56e70e",
+      "vintage": "P80_MVA_FUS5_2024"
+    },
+    "P80_QFL_MVA.xml": {
+      "sha256": "7fe90d4558529f03b6bf3e04b63e1d72668005ed40ad78071495dbe6b4447b98",
+      "vintage": "P80_QFL_MVA_2024"
+    },
+    "P80_QMO_MVA.xml": {
+      "sha256": "e5480e7e5302c67126ac08907b38f57a84f18235bf1b71118a18a9c1494f9420",
+      "vintage": "P80_QMO_MVA_2024"
+    },
+    "PBI_MVA_FUS3.xml": {
+      "sha256": "d6d257f6f74fecdb778ce8dbe749e27a66783673be8918732b58546fd9ce2863",
+      "vintage": "PBI_MVA_FUS3_2024"
+    },
+    "PBI_MVA_FUS5.xml": {
+      "sha256": "fca8517691880b9f07c101d3fdb10f99449b3e51fb5b1069554653810583e9f1",
+      "vintage": "PBI_MVA_FUS5_2024"
+    },
+    "PCT_MVA_FUS3.xml": {
+      "sha256": "6600008f9ae59ad43b18ff4470f6baedf405b9bc53c37f36e059dc960399c528",
+      "vintage": "PCT_MVA_FUS3_2025"
+    },
+    "PCT_MVA_FUS5.xml": {
+      "sha256": "62741136431521ac451eb0da003ff5caeb59a15694a3e05c17faac8d8e9196b3",
+      "vintage": "PCT_MVA_FUS5_2024"
+    },
+    "PHL_MVA_FUS3.xml": {
+      "sha256": "ae239b9409bb2ab09778c19e3e9519825bac988b9635120d1b1f915c2ebf7a0e",
+      "vintage": "PHL_MVA_FUS3_2024"
+    },
+    "PHL_MVA_FUS5.xml": {
+      "sha256": "69761b78abe2b676565505ae267a38f475b26824e68f6a3998486c23d1b9a1d6",
+      "vintage": "PHL_MVA_FUS5_2024"
+    },
+    "PIT_MVA_FUS3.xml": {
+      "sha256": "6c2901e3b74ab5de5d9a31be4f4ac0fbebf0fe57f9fdd33350ca5f5e8d27062c",
+      "vintage": "PIT_MVA_FUS3_2024"
+    },
+    "PIT_MVA_FUS5.xml": {
+      "sha256": "ce7321e16a0257213135b32ab3b187132e321208038fe25b9d51af0b26e5a569",
+      "vintage": "PIT_MVA_FUS5_2024"
+    },
+    "PVD_MVA_FUS3.xml": {
+      "sha256": "a08446adfad3318d3d52379d70170269ca8d22b5b2f17214a3a30d1d17bf3ad2",
+      "vintage": "PVD_MVA_FUS3_2024_v3"
+    },
+    "PVD_MVA_FUS5.xml": {
+      "sha256": "a31c6240e25aa55b6b0995144fc5fb14f5da9afc044249635a90cc6c699b84cf",
+      "vintage": "PVD_MVA_FUS5_2024_v2"
+    },
+    "PWM_MVA_FUS3.xml": {
+      "sha256": "36e9b801f0a240215ccbfad3e2d3698f3040869e2942459e35bf93fdfade90fb",
+      "vintage": "PWM_MVA_FUS3_2023"
+    },
+    "PWM_MVA_FUS5.xml": {
+      "sha256": "38d6d11dc6cddd4983100905d9fdbaf9c25b6f9361998a22dbfce82eb5a1bac3",
+      "vintage": "PWM_MVA_FUS5_2023"
+    },
+    "R90_MVA_FUS3.xml": {
+      "sha256": "1554277454a025de9006e2f0c14860f4dc5dca3d98facade0de18cb81fdb509f",
+      "vintage": "R90_MVA_FUS3_2024"
+    },
+    "R90_MVA_FUS5.xml": {
+      "sha256": "2f9b6b456c70d8dc8fb6c21e4b0d151e222adc2697ad9b2b7ec80f78f20da027",
+      "vintage": "R90_MVA_FUS5_2024"
+    },
+    "RDG_MVA_FUS3.xml": {
+      "sha256": "ddb8e3caabbe43f3609f725beba9f156450a3cee7f80adeb4231cf729a6b6ba2",
+      "vintage": "RDG_MVA_FUS3_2024"
+    },
+    "RDG_MVA_FUS5.xml": {
+      "sha256": "15b8e8990d42d35c6c6a98a05af4c982bedc05bae84f4559eed17bfdeed41c46",
+      "vintage": "RDG_MVA_FUS5_2023"
+    },
+    "RDU_MVA_FUS3.xml": {
+      "sha256": "67f0cd540c814c21cdd29a4f775f8abff62f79bcdf358bdb0d534d7ca348dc95",
+      "vintage": "RDU_MVA_FUS3_2025"
+    },
+    "RDU_MVA_FUS5.xml": {
+      "sha256": "1533855e2145b1017d59da30bb1b01be90e4dadd38224506bed917a5c697e8dc",
+      "vintage": "RDU_MVA_FUS5_2025"
+    },
+    "RFD_MVA_FUS3.xml": {
+      "sha256": "fe7a40bd2d8509edce6674368cccb2face28ddaaafd5f67f973e8d3d89e27f09",
+      "vintage": "RFD_MVA_FUS3_2024"
+    },
+    "RFD_MVA_FUS5.xml": {
+      "sha256": "dea3e5c50e0fb748c99ac7679156e76aa7146300c022c0f18888e15e9c22ce27",
+      "vintage": "RFD_MVA_FUS5_2024"
+    },
+    "ROA_MVA_FUS3.xml": {
+      "sha256": "f1500698d76bb8420820a11906e4ed93d0656977af1e1e7f140bdeaa8c928926",
+      "vintage": "ROA_MVA_FUS3_2025_v1"
+    },
+    "ROA_MVA_FUS5.xml": {
+      "sha256": "2afe332d88847626dfd28bba2a1f716c9ebaf242fe0b26fdedc36b5f2ec6d79b",
+      "vintage": "ROA_MVA_FUS5_2025"
+    },
+    "ROC_MVA_FUS3.xml": {
+      "sha256": "d2242eaddeb5417ff73c7d59af2edc8c3de8850e40d88d9c6c24c971beda6948",
+      "vintage": "ROC_MVA_FUS3_2024"
+    },
+    "ROC_MVA_FUS5.xml": {
+      "sha256": "2a3f769cd1c82ce506dc5c4a5c7c459b4dd6d70280b8557b3949d8c62d2ba6df",
+      "vintage": "ROC_MVA_FUS5_2024"
+    },
+    "ROW_MVA_FUS3.xml": {
+      "sha256": "0d5d5222a5b1b3c4b7c4491687b5fdbac1cb7c96a50c5fb388ac6e836e587bff",
+      "vintage": "ROW_MVA_FUS3_2024"
+    },
+    "ROW_MVA_FUS5.xml": {
+      "sha256": "e3a21d944e5e77ba2eef38ec3b6f59a1f51dcda8640a803f9a1aafa174207202",
+      "vintage": "ROW_MVA_FUS5_2024"
+    },
+    "RST_MVA_FUS3.xml": {
+      "sha256": "109028a6285aa24a3b6c914e673aec620db3d2dcd27dea979b2455e049bcbbb7",
+      "vintage": "RST_MVA_FUS3_2024"
+    },
+    "RST_MVA_FUS5.xml": {
+      "sha256": "5d49ddd4f054e5315a4753b861981f7998d33f0066015bb9aef278e4794ebd86",
+      "vintage": "RST_MVA_FUS5_2024"
+    },
+    "RSW_MVA_FUS3.xml": {
+      "sha256": "fb357220b1c2eb44f0fe6b4091b182c9089d6dc0a34fc3dde8930f81598660fe",
+      "vintage": "RSW_MVA_FUS3_2024"
+    },
+    "RSW_MVA_FUS5.xml": {
+      "sha256": "a3d23fd3f8cb6a5148d01b3c03419a81a2b85e9dee2b339c3b95d14c6e1b70ca",
+      "vintage": "RSW_MVA_FUS5_2024"
+    },
+    "S46_MVA_FUS3.xml": {
+      "sha256": "2e5cc1bb72779218d2f343dcf7549d3bdb4caf673419e6353a6dfd6c4580f864",
+      "vintage": "S46_MVA_FUS3_2024"
+    },
+    "S46_MVA_FUS5.xml": {
+      "sha256": "6f0c4fa72f6faaca0d8633571514ee63e2cc166464f5ae990ba79ace8046a765",
+      "vintage": "S46_MVA_FUS5_2024"
+    },
+    "S56_MVA_FUS3.xml": {
+      "sha256": "db0fed732687f987961cb13673a05d2b31a5f24d581d9b39ebbf76dd1d22fed7",
+      "vintage": "S56_MVA_FUS3_2025"
+    },
+    "S56_MVA_FUS5.xml": {
+      "sha256": "a869827bed4e2a27f4351476dc3b702e6a397117ead801006244012a2e00f2d6",
+      "vintage": "S56_MVA_FUS5_2025"
+    },
+    "SAT_MVA_FUS3.xml": {
+      "sha256": "c5a19a54d485d36945c4ce2d04181ce0670e8a98ab632656c39fd711fb8acfb9",
+      "vintage": "SAT_MVA_FUS3_2025"
+    },
+    "SAT_MVA_FUS5.xml": {
+      "sha256": "da67fbfaf6135e170cb52367bd35d8b441c9b8fdb06c60fa70f40007842ad128",
+      "vintage": "SAT_MVA_FUS5_2025"
+    },
+    "SAV_LHW_MVA.xml": {
+      "sha256": "be07e3804c37b4c06dda871306c27153bff8cd8bc58e4f8b1a8002710fd86da7",
+      "vintage": "SAV_LHW_MVA_2022"
+    },
+    "SAV_MVA_FUS3.xml": {
+      "sha256": "5211a230a024344d9b045f544a2873a18fc80e09f7939cc4f56c1e434350e4fe",
+      "vintage": "SAV_MVA_FUS3_2024"
+    },
+    "SAV_MVA_FUS5.xml": {
+      "sha256": "33120119d5b8c087d162921cc3556cdd25ecc1190c26da32c4581b8a29c8466e",
+      "vintage": "SAV_MVA_FUS5_2024"
+    },
+    "SBA_MVA_FUS3.xml": {
+      "sha256": "56527528c46c65d68355f396298c1492037d361e2f1229e440c771217964f806",
+      "vintage": "SBA_MVA_FUS3_2024"
+    },
+    "SBA_MVA_FUS5.xml": {
+      "sha256": "e30f2ddebe5148d4d8be265af727c1af65981a9684ae49880001bec8d5ef7170",
+      "vintage": "SBA_MVA_FUS5_2024"
+    },
+    "SBN_MVA_FUS3.xml": {
+      "sha256": "aafcafeec2ed8b2eaba442993716110fb8133d08af5de5653e8917614166f408",
+      "vintage": "SBN_MVA_FUS3_2024_v1"
+    },
+    "SBN_MVA_FUS5.xml": {
+      "sha256": "e49aac5c6aa15af575e2f2c8fa3c2cc73644d8a74623421bf9fbf81b56cade5c",
+      "vintage": "SBN_MVA_FUS5_2024"
+    },
+    "SCT_MVA_FUS3.xml": {
+      "sha256": "7fb473d40c1cbddb50782b16e747010ce0380d3eed2e74efbba9569707536324",
+      "vintage": "SCT_MVA_FUS3_2025_v1"
+    },
+    "SCT_MVA_FUS5.xml": {
+      "sha256": "2263200086707b0cc57c609ee4914b1b8b0c2c95a44f266479d737e85f9102b3",
+      "vintage": "SCT_MVA_FUS5_2025_v1"
+    },
+    "SDF_MVA_FUS3.xml": {
+      "sha256": "4988799a200ceb86e0637484867c3d9d0e18942b6a3b3fba821a5a3abd8cf62f",
+      "vintage": "SDF_MVA_FUS3_2025"
+    },
+    "SDF_MVA_FUS5.xml": {
+      "sha256": "3e0f3ff54f3371b428c28d07dea0e151ad804f8933df7bca2ed4126e06827a49",
+      "vintage": "SDF_MVA_FUS5_2025"
+    },
+    "SGF_MVA_FUS3.xml": {
+      "sha256": "c9135ab1e6d490f0b619397d35eadc53ab6d3fdaf5ac6e437e1817a4459d3d36",
+      "vintage": "SGF_MVA_FUS3_2025"
+    },
+    "SGF_MVA_FUS5.xml": {
+      "sha256": "4af0340b240456b627e691328efcec211ad5d8f4b86f2b0e62a52300c6770185",
+      "vintage": "SGF_MVA_FUS5_2025"
+    },
+    "SHV_MVA_FUS3.xml": {
+      "sha256": "e22648970fb085670ca44d5d1ee943a93f3c7c104c04b14928226b0f4a0fa8fa",
+      "vintage": "SHV_MVA_FUS3_2024"
+    },
+    "SHV_MVA_FUS5.xml": {
+      "sha256": "f47260110972c98f1f63a3ba9eda02b7d5e28bb773ff36bfd7861a3fa422a0d4",
+      "vintage": "SHV_MVA_FUS5_2024"
+    },
+    "SUX_MVA_FUS3.xml": {
+      "sha256": "5fe1b92acc8dd932e65f387b0723997361fee058fefbc1707718aec408c572fa",
+      "vintage": "SUX_MVA_FUS3_2024"
+    },
+    "SUX_MVA_FUS5.xml": {
+      "sha256": "d0c32f9779916c64c297c58a2b92801111fcc7320b827b84f7350d2f3cea198e",
+      "vintage": "SUX_MVA_FUS5_2024"
+    },
+    "SYR_MVA_FUS3.xml": {
+      "sha256": "f2b7521af30648a23e85576fa6e87270b6347eda1ae3ac0bc084d99afdfbeff3",
+      "vintage": "SYR_MVA_FUS3_2025"
+    },
+    "SYR_MVA_FUS5.xml": {
+      "sha256": "0d92e9fcc62e4b4122a9830256704886af56ee4b0ea85dfa0532b5dc302bcef1",
+      "vintage": "SYR_MVA_FUS5_2025"
+    },
+    "T75_MVA_FUS3.xml": {
+      "sha256": "23ecf30c00e5f377e09bba232c1b6dceae1010612ecd385e6938135a2c9075ef",
+      "vintage": "T75_MVA_FUS3_2024_v1"
+    },
+    "T75_MVA_FUS5.xml": {
+      "sha256": "29af11792b6ccc8c31498fa9cdd1beb7be442f8c76e2d3623bdc0c1967373e70",
+      "vintage": "T75_MVA_FUS5_2024_v1"
+    },
+    "TLH_MVA_FUS3.xml": {
+      "sha256": "ca29856e75aa0a5cc3dda652a6f8692a6a4f0206b89cfb3deea4402255dc85d0",
+      "vintage": "TLH_MVA_FUS3_2024"
+    },
+    "TLH_MVA_FUS5.xml": {
+      "sha256": "78b3643c56db14b6bd678452db0926988d02237f88dfaa046a379c2c95a4903c",
+      "vintage": "TLH_MVA_FUS5_2024"
+    },
+    "TOL_MVA_FUS3.xml": {
+      "sha256": "d8708b82ee0cbf6525ba728ee569ab7336221c40f285b9207c2898675905e9be",
+      "vintage": "TOL_MVA_FUS3_2025"
+    },
+    "TOL_MVA_FUS5.xml": {
+      "sha256": "2d76eb34ee3f9014daea1fdcc063be6848e160a2f96ed129838d6ef624990896",
+      "vintage": "TOL_MVA_FUS5_2025"
+    },
+    "TPA_MVA_FUS3.xml": {
+      "sha256": "95d66aa4715958621dd377a4c1eda52428b6d0304ed5b3eab427e336da0a73bf",
+      "vintage": "TPA_MVA_FUS3_2025"
+    },
+    "TPA_MVA_FUS5.xml": {
+      "sha256": "0b4eb143258ce3983720e877e7e03f8d9b5f15040dd2fe85bcff0e004ec94437",
+      "vintage": "TPA_MVA_FUS5_2025"
+    },
+    "TRI_MVA_FUS3.xml": {
+      "sha256": "17c8dfbe793dd5705bb3791224443e31bcfb5309278a22503db8c5830881dfe4",
+      "vintage": "TRI_MVA_FUS3_2024"
+    },
+    "TRI_MVA_FUS5.xml": {
+      "sha256": "68c3c1baff5ed6f4e52abee00142a7a01e89bbd8fa60090a8d613383bf1ffd8c",
+      "vintage": "TRI_MVA_FUS5_2024"
+    },
+    "TUL_MVA_FUS3.xml": {
+      "sha256": "c2bd0ff28450f78dbd482235254edca67c3054281e024a5cef45f6791aaf27e3",
+      "vintage": "TUL_MVA_FUS3_2025_v1"
+    },
+    "TUL_MVA_FUS5.xml": {
+      "sha256": "aa221997c6b13911bf0f98ecd67cc24daf493eb6058d80364aa2a02de0bce532",
+      "vintage": "TUL_MVA_FUS5_2025"
+    },
+    "TWF_BYI_VOR_MVA.xml": {
+      "sha256": "35840636f82865c4da9d2d2e0b4592bb69654c6d891b71fc5b7323f798198efc",
+      "vintage": "TWF_BYI_VOR_MVA_2024"
+    },
+    "TWF_TWF_VOR_MVA.xml": {
+      "sha256": "677b07be4be85ccca073c52c4a343032617aeda58e2b3d2c7ae16fbe1f3d67d2",
+      "vintage": "TWF_TWF_VOR_MVA_2024"
+    },
+    "TYS_MVA_FUS3.xml": {
+      "sha256": "3ed30871fdccdc7f82415b2626cc80231f14366b0392e7e64665554b8d098a48",
+      "vintage": "TYS_MVA_FUS3_2024"
+    },
+    "TYS_MVA_FUS5.xml": {
+      "sha256": "28647dea3f291d65ce9655c9cbf0e408dd4b13183f76823527984f6692956aae",
+      "vintage": "TYS_MVA_FUS5_2024"
+    },
+    "U90_MVA_FUS3.xml": {
+      "sha256": "312211742ffbcd9f885de2c7e971beae431f4632101a5f33b9035ed70b3946b8",
+      "vintage": "U90_MVA_FUS3_2025_v1"
+    },
+    "U90_MVA_FUS5.xml": {
+      "sha256": "dedb2027a7e8aadc24b410b9b90eb0a5eeb86b68dde404cc447d6bb37bbe9beb",
+      "vintage": "U90_MVA_FUS5_2025"
+    },
+    "Y90_MVA_FUS3.xml": {
+      "sha256": "d15cf59f6426a80c0d21d561b6c8c92e00cb49c54ed5462aa305f0ec4cda4ce2",
+      "vintage": "Y90_MVA_FUS3_2024"
+    },
+    "Y90_MVA_FUS5.xml": {
+      "sha256": "33ec45d42b889f025b4b61a981e967ed495144e2f844a3852f26c64bebabc33e",
+      "vintage": "Y90_MVA_FUS5_2024"
+    },
+    "YNG_MVA_FUS3.xml": {
+      "sha256": "6d013e6464a7f99460c19f67255d3ec3a22e54fe94853a623060f8308ba5736c",
+      "vintage": "YNG_MVA_FUS3_2024"
+    },
+    "YNG_MVA_FUS5.xml": {
+      "sha256": "e59fda47ba9595eebd61709281319b9c6563a36d9bfcbd6300c7252dd844f57d",
+      "vintage": "YNG_MVA_FUS5_2024"
+    },
+    "ZAB_TAV.xml": {
+      "sha256": "78867cbfec1ec8ca67755a55e6f8e5c003670464362928d7d28143dbf7f178fb",
+      "vintage": "ZAB_TAV_2024"
+    },
+    "ZAN_TAV.xml": {
+      "sha256": "0509bf3507df3d521edd022fea1caf0a7f751997a033203a2f63569182539467",
+      "vintage": "ZAN_TAV_2025_v3"
+    },
+    "ZAU_TAV.xml": {
+      "sha256": "9394d3ae1e4650d12cbfdd3c6d45cba6f502a033f880b45790382a05462e13a6",
+      "vintage": "ZAU_TAV_2025"
+    },
+    "ZBW_TAV.xml": {
+      "sha256": "b4959881dcb6b319a0ba470423f6ef650e9d226f104871e8a80487951c6fe9e5",
+      "vintage": "ZBW_TAV_2025"
+    },
+    "ZDC_TAV.xml": {
+      "sha256": "f4ee088e311b4d078c8cc75d8a28990673db34c1e6157c3f947756dc0972b8bd",
+      "vintage": "ZDC_TAV_2024"
+    },
+    "ZDV_TAV.xml": {
+      "sha256": "e559252ab05bad5c7ded6623672dbc242e81517cce3f5433423c322f60eefae7",
+      "vintage": "ZDV_TAV_2025"
+    },
+    "ZFW_TAV.xml": {
+      "sha256": "8b57993c4f3b886c259e3ff2a1f8f76c8869fc510dd4791b7184eec0a8f1127f",
+      "vintage": "ZFW_TAV_2025"
+    },
+    "ZHN_HNL_ARSR4_MVA.xml": {
+      "sha256": "f56fb33a96006c39d5d586a615d380b7b1b54aac5d4e1eb5abac33952942518f",
+      "vintage": "ZHN_HNL ARSR4_MVA_2025"
+    },
+    "ZHN_HNL_ASR9_MVA.xml": {
+      "sha256": "0a1b8fe0c96f464d3faeb3974cacd5d3f309888f6b301b6417edd269037359c5",
+      "vintage": "ZHN_HNL ASR9_MVA_2025"
+    },
+    "ZHN_LIH_MVA.xml": {
+      "sha256": "0eeaca6a809e20ecb251397969ee6dd27f3a051cf188d068cf4a9dcbddf2ad50",
+      "vintage": "ZHN_LIH_MVA_2025"
+    },
+    "ZHN_MVA_FUS3.xml": {
+      "sha256": "e9095391e702c94dfe175e4c041b48f923002372111fa795401465f19f51e89f",
+      "vintage": "ZHN_MVA_FUS3_2025"
+    },
+    "ZHN_MVA_FUS5.xml": {
+      "sha256": "9df9258f87285b5a08377203685c170d5b2388c748bb73c0a1b230dc54b3e18c",
+      "vintage": "ZHN_MVA_FUS5_2025"
+    },
+    "ZHN_OGG_MVA.xml": {
+      "sha256": "30e13145251c475219cf9a721d4975538e90380b614b03c9038f6cd65ca46b35",
+      "vintage": "ZHN_OGG_MVA_2025"
+    },
+    "ZHN_TAV.xml": {
+      "sha256": "cf1d699bfb5257b52b6558c418507eafc83266a9102e985f783a83c8b664a719",
+      "vintage": "ZHN_TAV_2025"
+    },
+    "ZHU_TAV.xml": {
+      "sha256": "a0889263d110c37bfe61e72331c32d32dcff018720f49fd50a36a259b63d44d5",
+      "vintage": "ZHU_TAV_2024"
+    },
+    "ZID_TAV.xml": {
+      "sha256": "4add271ece0a0677843cada7632d1767e070f6e8ec2a719d2308e4d98c5b4333",
+      "vintage": "ZID_TAV_2025"
+    },
+    "ZJX_TAV.xml": {
+      "sha256": "8d17369a9a2346636117948b985d9a4c909dfeef8ad2eb611dad18ea37fa8dd2",
+      "vintage": "ZJX_TAV_2025"
+    },
+    "ZKC_TAV.xml": {
+      "sha256": "28e3754f5cb903f6ee2225758d72cf61f9410ce1be5b063d8ca4457e4aa736bf",
+      "vintage": "ZKC_TAV_2025"
+    },
+    "ZLA_TAV.xml": {
+      "sha256": "7f0d8c48017f1a28416b246b37803f4ac6e89b73f3eef41e42ec0e0c53bb9b34",
+      "vintage": "ZLA_TAV_2025"
+    },
+    "ZLC_BZN_MVA.xml": {
+      "sha256": "e0bd6e367625465cbe92d9c5aeedafb99fdcf9b60a0e18baa97483dbc6511d52",
+      "vintage": "ZLC_BZN_MVA_2024"
+    },
+    "ZLC_CDC_MVA.xml": {
+      "sha256": "12a46f1b0768a07f67f7bb70c8e729baa1fda539379991ac9d3410469f786b37",
+      "vintage": "ZLC_CDC_MVA_2024"
+    },
+    "ZLC_GPI_MVA.xml": {
+      "sha256": "47aa969a8d50853bf50174161165f0646ad24dd9e7c57a271318ebbaf633b37a",
+      "vintage": "ZLC_GPI_MVA_2024"
+    },
+    "ZLC_GTF_MVA.xml": {
+      "sha256": "7c0910f5f987c49f83a2788e6ec7646a21d8907baf1d2375bfc3f96759414d77",
+      "vintage": "ZLC_GTF_MVA_2024"
+    },
+    "ZLC_GTF_MVA_FUS3.xml": {
+      "sha256": "ef62229f8d64c6377f24540f0cc6d32fe051268ef6432a9dc477d7b2f2d60710",
+      "vintage": "ZLC_GTF_MVA_FUS3_2023"
+    },
+    "ZLC_GTF_MVA_FUS5.xml": {
+      "sha256": "c39ba294e3970b9fdee867ba439249a96b14f778add024e8f69879b8261d3ae0",
+      "vintage": "ZLC_GTF_MVA_FUS5_2023"
+    },
+    "ZLC_JAC_MVA.xml": {
+      "sha256": "edef461ed56f6b5ca4752e824856c72656ba528aae6343581aab94068bf5cac9",
+      "vintage": "ZLC_JAC_MVA_2024"
+    },
+    "ZLC_PVU_MVA.xml": {
+      "sha256": "97135b0fc9422ad193450c6f5a3ee2323dd7bc3234ed31b94801b741fbc1d3a9",
+      "vintage": "ZLC_PVU_MVA_2025"
+    },
+    "ZLC_QWA_MVA.xml": {
+      "sha256": "2693628c1d4d5d926e61bc5363b8fe9ac2c859897a29413a075a2defa8aade70",
+      "vintage": "ZLC_QWA_MVA_2024"
+    },
+    "ZLC_RKS_MVA.xml": {
+      "sha256": "464582de7f2c011e0d2686391659a429c8a7b46a07be2172449ab7a721079b19",
+      "vintage": "ZLC_RKS_MVA_2024"
+    },
+    "ZLC_TAV.xml": {
+      "sha256": "9236e8e11f51e1ebb868fadcf791a56951d37f84a129484d0999edd683205635",
+      "vintage": "ZLC_TAV_2024_v2"
+    },
+    "ZMA_TAV.xml": {
+      "sha256": "f76390269981783df9243060590eb360e573bb5f7d49cb9300c33984f183e570",
+      "vintage": "ZMA_TAV_2023"
+    },
+    "ZME_TAV.xml": {
+      "sha256": "4ddb6cffd0b6f0781d10474d64a3b5c04a776d640fb90c67abce38b4fc94a6c0",
+      "vintage": "ZME_TAV_2025_v1"
+    },
+    "ZMP_TAV.xml": {
+      "sha256": "72eb590131294c386a51001de714cdbd23eda612857dfc2d2e094ada26affdc3",
+      "vintage": "ZMP_TAV_2025"
+    },
+    "ZNY_TAV.xml": {
+      "sha256": "0998b97c563927cd958b073f03351b35c4cfe34a3256a3df8705008a40c6dd28",
+      "vintage": "ZNY_TAV_2025"
+    },
+    "ZOA_QMV_MVA.xml": {
+      "sha256": "844aa5bcb33835801a3437ea177cb34317b8c57395392f598b2af91d642f198c",
+      "vintage": "ZOA_QMV_MVA_2024"
+    },
+    "ZOA_RBL_MVA.xml": {
+      "sha256": "38505e04bf5df5711b02707046b3f4634ad6445c63bb5132abdcac4e916d623c",
+      "vintage": "ZOA_RBL_MVA_2024"
+    },
+    "ZOA_TAV.xml": {
+      "sha256": "e871f72859236c38d19fa793240ff7b362f5c76e564c673f6c7e285f4addba75",
+      "vintage": "ZOA_TAV_2025"
+    },
+    "ZOB_TAV.xml": {
+      "sha256": "7739f61d66c03ee988f1db3b4ed061c703540e0c374673286e38dae417ccfbcd",
+      "vintage": "ZOB_TAV_2025"
+    },
+    "ZSE_TAV.xml": {
+      "sha256": "cbe043bb67d6e43d32baa18e3ad0124dfdd54e0ceeabad32813c3987eb58c214",
+      "vintage": "ZSE_TAV_2023"
+    },
+    "ZSU_MVA_FUS3.xml": {
+      "sha256": "8c2bfe30360c93a6ce2af7aad6b838eb8e4fd07315645ba0332062f0faf652aa",
+      "vintage": "ZSU_MVA_FUS3_2025"
+    },
+    "ZSU_MVA_FUS5.xml": {
+      "sha256": "3dc208024427aaf3551c7b3870b65ba922ded4525c9758e3ac21decd57c2fcb6",
+      "vintage": "ZSU_MVA_FUS5_2025_v1"
+    },
+    "ZSU_TAV.xml": {
+      "sha256": "669755cae739a7bc0d1ed8a820a60c2d0c519bfb89b552edf2a7664bbe6c05d9",
+      "vintage": "ZSU_TAV_2024"
+    },
+    "ZTL_TAV.xml": {
+      "sha256": "77eca03c31eacc8c2431c13bd3f5e111b96cf01ec788413dd9a9e5761b543aff",
+      "vintage": "ZTL_TAV_2023"
+    },
+    "ZUA_GUAM_MVA.xml": {
+      "sha256": "6a6ffd966ce7f8b45dfaac0547bc2c4a730fb9f765483e55fe5b25b3386c4ca8",
+      "vintage": "ZUA_GUAM_MVA_2024"
+    },
+    "ZUA_MVA_CENRAP.xml": {
+      "sha256": "3988f7fafa6025450be27a762edb034582f9e8a68b74916bb0e96309bf845f35",
+      "vintage": "ZUA_MVA_CENRAP_2024"
+    }
+  }
+}

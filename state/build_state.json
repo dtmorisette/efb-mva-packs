@@ -1,0 +1,317 @@
+{
+  "ZAB:FUS3": {
+    "pack_name": "ZAB MVA-MIA",
+    "source_hashes": {
+      "ABQ_MVA_FUS3.xml": "af6edd0ca174dd845b494475cab6d182dc700fa2a21fff65c6254bd612fcfca4",
+      "AMA_MVA_FUS3.xml": "3a7fdb564a0d733aa3333a9dd5ae47bdfb69fe926a484e0eb65402ad94631f8a",
+      "ELP_MVA_FUS3.xml": "35de8ef8a38914c9f1f5a37f33c49916807ae2ba66607036fc4df1f53465a737",
+      "P50_MVA_FUS3.xml": "b6cf0e61671b48df1d6a89738cfce289954a926d681dd228d157bb7d815919c8",
+      "ROW_MVA_FUS3.xml": "0d5d5222a5b1b3c4b7c4491687b5fdbac1cb7c96a50c5fb388ac6e836e587bff",
+      "U90_MVA_FUS3.xml": "312211742ffbcd9f885de2c7e971beae431f4632101a5f33b9035ed70b3946b8",
+      "ZAB_TAV.xml": "78867cbfec1ec8ca67755a55e6f8e5c003670464362928d7d28143dbf7f178fb"
+    },
+    "version": 1.0
+  },
+  "ZAN:FUS3": {
+    "pack_name": "ZAN MVA-MIA",
+    "source_hashes": {
+      "A11_MVA_FUS3.xml": "a4c6369ca90f0581894a38aa3d24f9ca466f454162ebd2df0df2b76a648eb72a",
+      "FAI_MVA_FUS3.xml": "2900d39c27a980092b0e6ff096e0b27b464a7c4380fcfd57aade707c28fec202",
+      "ZAN_TAV.xml": "0509bf3507df3d521edd022fea1caf0a7f751997a033203a2f63569182539467"
+    },
+    "version": 1.0
+  },
+  "ZAU:FUS3": {
+    "pack_name": "ZAU MVA-MIA",
+    "source_hashes": {
+      "ALO_MVA_FUS3.xml": "0d6b2bf7643e84be5a2f910244b9ed8e73573f2242c475129f3766fa504c6de9",
+      "AZO_MVA_FUS3.xml": "d947479bc595f2a4ec49517c02cc9388e67164f0a62d0165ee028db643d4c72b",
+      "C90_MVA_FUS3.xml": "eb37fc5f97e8d598d0a6b5f44f0f8d16594c85b8f58fd4ecd157b28090649b24",
+      "CID_MVA_FUS3.xml": "c98dc3c68f7466103a3b12a088b26457e2e1ec8f6b752fb66bdc70b7850f5ea7",
+      "CMI_MVA_FUS3.xml": "ba1e24effe24cfc7b2e0a6c3dd8767d1baaeab40472df882ed4cabe73327a982",
+      "MKE_MVA_FUS3.xml": "dcbf830cb2cf78482735fa8a05b2acdd575c1c2e411256ba87631528fb554e83",
+      "MLI_MVA_FUS3.xml": "cab98056673be7094e45b293b81c4429b3b3c53ae84d89d33b874fbf3002a9dc",
+      "MSN_MVA_FUS3.xml": "c31e4a96d22de662f380a2a29bb22826408bcb9db6309c2cf562ba84fb88f008",
+      "RFD_MVA_FUS3.xml": "fe7a40bd2d8509edce6674368cccb2face28ddaaafd5f67f973e8d3d89e27f09",
+      "SBN_MVA_FUS3.xml": "aafcafeec2ed8b2eaba442993716110fb8133d08af5de5653e8917614166f408",
+      "ZAU_TAV.xml": "9394d3ae1e4650d12cbfdd3c6d45cba6f502a033f880b45790382a05462e13a6"
+    },
+    "version": 1.0
+  },
+  "ZBW:FUS3": {
+    "pack_name": "ZBW MVA-MIA",
+    "source_hashes": {
+      "A90_MVA_FUS3.xml": "633f83bace22f13aaf5baec8b2aaf8838420c84437a1a189e0fe051cc0060cf0",
+      "ALB_MVA_FUS3.xml": "3c79453dbe0819a013d903f099e186133a47ee18e0c5cd807215a7c11b3bf091",
+      "BGR_MVA_FUS3.xml": "b5763073c95e6a281042933b678774c9a74d11f0b93d7d34e02442d799f829ce",
+      "BTV_MVA_FUS3.xml": "e7281cb714b2b899f00792cc912e51a73eb7814941967652900ab598e490f4d3",
+      "PVD_MVA_FUS3.xml": "a08446adfad3318d3d52379d70170269ca8d22b5b2f17214a3a30d1d17bf3ad2",
+      "PWM_MVA_FUS3.xml": "36e9b801f0a240215ccbfad3e2d3698f3040869e2942459e35bf93fdfade90fb",
+      "SYR_MVA_FUS3.xml": "f2b7521af30648a23e85576fa6e87270b6347eda1ae3ac0bc084d99afdfbeff3",
+      "Y90_MVA_FUS3.xml": "d15cf59f6426a80c0d21d561b6c8c92e00cb49c54ed5462aa305f0ec4cda4ce2",
+      "ZBW_TAV.xml": "b4959881dcb6b319a0ba470423f6ef650e9d226f104871e8a80487951c6fe9e5"
+    },
+    "version": 1.0
+  },
+  "ZDC:FUS3": {
+    "pack_name": "ZDC MVA-MIA",
+    "source_hashes": {
+      "ACY_MVA_FUS3.xml": "131418737610b02c2c4bfa0daf382bbda90709d9d4152ea1d112ddee715578f6",
+      "FAY_MVA_FUS3.xml": "fbae8c4619d85e176d1449895e11f2ed885c58c69b152ee8decc41fad6beed6e",
+      "GSO_MVA_FUS3.xml": "c625e8265516cc38c4234c12a6fe00e3f7fca5b0f6770105e1b08a09ae10ccd4",
+      "ILM_MVA_FUS3.xml": "4796b5ccd94e4d4549439003d17e1af87fac2f1f73e111fe9ce67ffd6e391c9c",
+      "ORF_MVA_FUS3.xml": "5f5e0fa7e72f0d376a1137fddb56a7cd6d23f0cbce0c8c1cebef411aab0e7600",
+      "PCT_MVA_FUS3.xml": "6600008f9ae59ad43b18ff4470f6baedf405b9bc53c37f36e059dc960399c528",
+      "RDU_MVA_FUS3.xml": "67f0cd540c814c21cdd29a4f775f8abff62f79bcdf358bdb0d534d7ca348dc95",
+      "ROA_MVA_FUS3.xml": "f1500698d76bb8420820a11906e4ed93d0656977af1e1e7f140bdeaa8c928926",
+      "ZDC_TAV.xml": "f4ee088e311b4d078c8cc75d8a28990673db34c1e6157c3f947756dc0972b8bd"
+    },
+    "version": 1.0
+  },
+  "ZDV:FUS3": {
+    "pack_name": "ZDV MVA-MIA",
+    "source_hashes": {
+      "ASE_MVA_FUS3.xml": "590e22643378bb9fb326d71cbca947e6c25d94026d167f701b4ee44dc62f81fc",
+      "COS_MVA_FUS3.xml": "b970e46bd6833a18aa474547624053b4ecba182285e67a9da31d0f361b44a210",
+      "CPR_MVA_FUS3.xml": "35b125b3520216b067966f896cfd2d41e9915646415e580512a80c5f46f7fc08",
+      "D01_DEN_PUB_MVA_FUS3.xml": "dbea6fb2a6e28cbebd500152ba1407f93746c952e17de11b62941d1111c6daee",
+      "D01_GJT_MVA_FUS3.xml": "fa69c40d39bcc6bcb36601d5303fb05cd73b55bee2798a55ab27f58d56a778b8",
+      "ZDV_TAV.xml": "e559252ab05bad5c7ded6623672dbc242e81517cce3f5433423c322f60eefae7"
+    },
+    "version": 1.0
+  },
+  "ZFW:FUS3": {
+    "pack_name": "ZFW MVA-MIA",
+    "source_hashes": {
+      "ABI_MVA_FUS3.xml": "4d3624e0baca9dc082b5f47bfe84834d3c15ffbc9a5cd21cfb7a847343c0473e",
+      "ACT_MVA_FUS3.xml": "ddaed29c34b98ee81404f1390c994ce896cc59067fc4d44e0312def28f1feca9",
+      "D10_MVA_FUS3.xml": "2458daf8b3f6eb6cdc156b37628ac85220fb2a5ba337fc2d4f2b100a86bb3e29",
+      "GGG_MVA_FUS3.xml": "37948c149cbc6d94d276237fe6b92188882e387a23766b5ec39d5769e98de019",
+      "LBB_MVA_FUS3.xml": "456aa92873aab97d753a8a3e1a8d8814d9a71d92ba8f9c1c14fec7d4a1f59aee",
+      "MAF_MVA_FUS3.xml": "87b9100abed2d055ca5fe04abd3e4c6da8612f8e79b376c5d2e6a21196fc68a8",
+      "MLU_MVA_FUS3.xml": "a27ce6c129e5dbdcaffff038e4c51a294bac9a4b6a7916dd3a69c61ff01f2f1b",
+      "OKC_MVA_FUS3.xml": "9285318ac149a08425cdb890bdc30ad46c92c02925400d24ae8469b66994f2a8",
+      "SHV_MVA_FUS3.xml": "e22648970fb085670ca44d5d1ee943a93f3c7c104c04b14928226b0f4a0fa8fa",
+      "ZFW_TAV.xml": "8b57993c4f3b886c259e3ff2a1f8f76c8869fc510dd4791b7184eec0a8f1127f"
+    },
+    "version": 1.0
+  },
+  "ZHN:FUS3": {
+    "pack_name": "ZHN MVA-MIA",
+    "source_hashes": {
+      "ZHN_MVA_FUS3.xml": "e9095391e702c94dfe175e4c041b48f923002372111fa795401465f19f51e89f",
+      "ZHN_TAV.xml": "cf1d699bfb5257b52b6558c418507eafc83266a9102e985f783a83c8b664a719"
+    },
+    "version": 1.0
+  },
+  "ZHU:FUS3": {
+    "pack_name": "ZHU MVA-MIA",
+    "source_hashes": {
+      "AUS_MVA_FUS3.xml": "afcc44fb56cc8ac00c6fb204a8988e839827ae7ffb56695ba3380c6dd28b63b6",
+      "BTR_MVA_FUS3.xml": "a7eefc3f2201ad505f9167cc7fd9a90e4a45e1b2dd0217e30f281e2b0ac02584",
+      "CRP_MVA_FUS3.xml": "214b8868a798a898c54be8c547710d9e2181f0190958578a2c4ed6f673efbeb5",
+      "GPT_MVA_FUS3.xml": "f602de760f339bcc047e6752d29fc80f264ea4eca7fe2923977c2615d5cf1041",
+      "I90_MVA_FUS3.xml": "ae64af776cbb20b851651d20073cf35c73c589d5cd47e90c4d37b52f6d5aab8b",
+      "LCH_MVA_FUS3.xml": "3d3c37fe1aae939f4a6e642a7ce13bc9658efae9b9e3e50c1b24d0bde94346c5",
+      "LFT_MVA_FUS3.xml": "becba875ca3a5004c81f09ee39e456ba1f1fb13052666220fa73e60b73027600",
+      "MOB_MVA_FUS3.xml": "ed886986084d41e627caac3c670e93fe50fae779fa2790ceb5313ed76940a7f9",
+      "MSY_MVA_FUS3.xml": "3c625cb04eb22afd5d316b34510120261924090280f0a7b2771a3c76df1af9fb",
+      "SAT_MVA_FUS3.xml": "c5a19a54d485d36945c4ce2d04181ce0670e8a98ab632656c39fd711fb8acfb9",
+      "ZHU_TAV.xml": "a0889263d110c37bfe61e72331c32d32dcff018720f49fd50a36a259b63d44d5"
+    },
+    "version": 1.0
+  },
+  "ZID:FUS3": {
+    "pack_name": "ZID MVA-MIA",
+    "source_hashes": {
+      "CMH_MVA_FUS3.xml": "ddbeb154788de0247c0866e2a400aef7fe4de70d7edf47926b505f1c63995450",
+      "CRW_MVA_FUS3.xml": "2ad6ceedc06e789af21a41b6f43a7bd337be6faa426eef6d7407f4d21917a6a2",
+      "CVG_MVA_FUS3.xml": "2cd423341ef78eed348dade50687bc196c58e8fc0e465ae4a7adc69c3f1e074e",
+      "EVV_MVA_FUS3.xml": "e1a9986e79e2cefa0ebf84ae90d5f9c8b59c39a271fd508fd46e4cb8326e8a85",
+      "HTS_MVA_FUS3.xml": "527a61faece610ae6df47b5287bcb9397f06fab2a676a32ac1d5ec36503e5130",
+      "HUF_MVA_FUS3.xml": "3708da649d5510e1a6d981514ee189e03a54362a36d94ca58b4b74c4ee083c50",
+      "IND_MVA_FUS3.xml": "177baa7283a3f52b83248644c0d8a6179d3d6f7bcb557f6e70288638147f7ea0",
+      "LEX_MVA_FUS3.xml": "578e823344eedb9b6060b7ff08633f9652710e41baff090cc853cc36d71941a8",
+      "SDF_MVA_FUS3.xml": "4988799a200ceb86e0637484867c3d9d0e18942b6a3b3fba821a5a3abd8cf62f",
+      "ZID_TAV.xml": "4add271ece0a0677843cada7632d1767e070f6e8ec2a719d2308e4d98c5b4333"
+    },
+    "version": 1.0
+  },
+  "ZJX:FUS3": {
+    "pack_name": "ZJX MVA-MIA",
+    "source_hashes": {
+      "CAE_MVA_FUS3.xml": "71e8e1e0afee3865defb3d13c681ba42492e93dc5f7629a0a9536a6cefc33a3f",
+      "CHS_MVA_FUS3.xml": "e3be7ef1d0ec678fb915d94a8bcad617b72cab5b5331ba16f84adae00cd7cde8",
+      "DAB_MVA_FUS3.xml": "5dd4f431dba9ad19e3743bdcc154db2014828a927114e909903df20bcfe6ef7b",
+      "FLO_MVA_FUS3.xml": "c96f1ffbca44f003c7845b618c91caa12fafc0ff0887eddc69acb25ec57b857b",
+      "JAX_MVA_FUS3.xml": "c364bbb7212c5ecc8924b283378b97932faa0550a37323987963e975d2169c77",
+      "MYR_MVA_FUS3.xml": "09f1b129b05105af4c8bf3e0f2b4b80f837230422788035f543d9d0556484449",
+      "P31_MVA_FUS3.xml": "36b3d4ad976b11489342e712ecf593c1fac24f74076d456ab0afe8b7a670f9ca",
+      "SAV_MVA_FUS3.xml": "5211a230a024344d9b045f544a2873a18fc80e09f7939cc4f56c1e434350e4fe",
+      "TLH_MVA_FUS3.xml": "ca29856e75aa0a5cc3dda652a6f8692a6a4f0206b89cfb3deea4402255dc85d0",
+      "ZJX_TAV.xml": "8d17369a9a2346636117948b985d9a4c909dfeef8ad2eb611dad18ea37fa8dd2"
+    },
+    "version": 1.0
+  },
+  "ZKC:FUS3": {
+    "pack_name": "ZKC MVA-MIA",
+    "source_hashes": {
+      "ICT_MVA_FUS3.xml": "175b18d62a13c39763039841b024964cf89bb472eee63d3ce5b4843beaac8742",
+      "MCI_MVA_FUS3.xml": "6cf49acab0eae0537d9527ab72cb3d953c969043846376db131c3bd59a22e600",
+      "SGF_MVA_FUS3.xml": "c9135ab1e6d490f0b619397d35eadc53ab6d3fdaf5ac6e437e1817a4459d3d36",
+      "T75_MVA_FUS3.xml": "23ecf30c00e5f377e09bba232c1b6dceae1010612ecd385e6938135a2c9075ef",
+      "TUL_MVA_FUS3.xml": "c2bd0ff28450f78dbd482235254edca67c3054281e024a5cef45f6791aaf27e3",
+      "ZKC_TAV.xml": "28e3754f5cb903f6ee2225758d72cf61f9410ce1be5b063d8ca4457e4aa736bf"
+    },
+    "version": 1.0
+  },
+  "ZLA:FUS3": {
+    "pack_name": "ZLA MVA-MIA",
+    "source_hashes": {
+      "BFL_MVA_FUS3.xml": "082bdf1137ecbbefee78221f51aa728966c305f833522773628f0acf138ebb1f",
+      "JCF_MVA_FUS3.xml": "ec5d29bb67c40d562ddd747cdd57b1205d002409669b6a62b5ce09c164dbb891",
+      "L30_MVA_FUS3.xml": "eb2ae2b0b47e4e5fea6cd4df44aeb0f76d10a2195127fdf117fcc40859ce2122",
+      "SBA_MVA_FUS3.xml": "56527528c46c65d68355f396298c1492037d361e2f1229e440c771217964f806",
+      "SCT_MVA_FUS3.xml": "7fb473d40c1cbddb50782b16e747010ce0380d3eed2e74efbba9569707536324",
+      "ZLA_TAV.xml": "7f0d8c48017f1a28416b246b37803f4ac6e89b73f3eef41e42ec0e0c53bb9b34"
+    },
+    "version": 1.0
+  },
+  "ZLC:FUS3": {
+    "pack_name": "ZLC MVA-MIA",
+    "source_hashes": {
+      "BIL_MVA_FUS3.xml": "1aebab2397542fef4e2c00c9121a88541188bc0d419815ebeac4cdaea60baf9b",
+      "BOI_BZN_MVA_FUS3.xml": "4a4c51950127e2b635de6544baa427af54a28abd8bf279aebc2e353d23720e6f",
+      "BOI_MVA_FUS3.xml": "1a19bf89cd708525d210a2946effd9df5181267d27c730ef4b2ada0e225e25a2",
+      "GTF_MVA_FUS3.xml": "4bf081b77d4012d92fbc39d92514a8f9e54cc1455f18a20ec93ca302ae029569",
+      "HLN_MVA_MULTI.xml": "4a3a015ff156289c7f47461e23a37efd4fa17dac841e52f7a4b454bf6b08274a",
+      "HLN_MVA_VOR.xml": "13194e9265e5d3071b4b1c3577ad6811c0dc55cc22b60800744890d3904ffd8b",
+      "S56_MVA_FUS3.xml": "db0fed732687f987961cb13673a05d2b31a5f24d581d9b39ebbf76dd1d22fed7",
+      "TWF_BYI_VOR_MVA.xml": "35840636f82865c4da9d2d2e0b4592bb69654c6d891b71fc5b7323f798198efc",
+      "TWF_TWF_VOR_MVA.xml": "677b07be4be85ccca073c52c4a343032617aeda58e2b3d2c7ae16fbe1f3d67d2",
+      "ZLC_GTF_MVA_FUS3.xml": "ef62229f8d64c6377f24540f0cc6d32fe051268ef6432a9dc477d7b2f2d60710",
+      "ZLC_TAV.xml": "9236e8e11f51e1ebb868fadcf791a56951d37f84a129484d0999edd683205635"
+    },
+    "version": 1.0
+  },
+  "ZMA:FUS3": {
+    "pack_name": "ZMA MVA-MIA",
+    "source_hashes": {
+      "F11_MVA_FUS3.xml": "72c4aac755ba61ce5218cb01fa3decefcc13425617fd184b8520ffe0d6146ba4",
+      "MIA_MVA_FUS3.xml": "17826018ea28949e9b6b50d7821f0e376bf4050e68368925c6c7c690f609aac1",
+      "PBI_MVA_FUS3.xml": "d6d257f6f74fecdb778ce8dbe749e27a66783673be8918732b58546fd9ce2863",
+      "RSW_MVA_FUS3.xml": "fb357220b1c2eb44f0fe6b4091b182c9089d6dc0a34fc3dde8930f81598660fe",
+      "TPA_MVA_FUS3.xml": "95d66aa4715958621dd377a4c1eda52428b6d0304ed5b3eab427e336da0a73bf",
+      "ZMA_TAV.xml": "f76390269981783df9243060590eb360e573bb5f7d49cb9300c33984f183e570"
+    },
+    "version": 1.0
+  },
+  "ZME:FUS3": {
+    "pack_name": "ZME MVA-MIA",
+    "source_hashes": {
+      "BNA_MVA_FUS3.xml": "d68277e7687de510590a7e5c4eb872b9403078b3a6c033339ff518ca014fd5f2",
+      "HSV_MVA_FUS3.xml": "0361d2306a63b35453a28d986394096cbbc22defaa7ae8b24580876df7da5185",
+      "JAN_MVA_FUS3.xml": "6e0553fea8a5d94aa70db55d0277de2078c8c7240888e749b3c74c4e083ab85f",
+      "LIT_MVA_FUS3.xml": "92cb4affde4687eb927d1b8bd946d762d438aa0cc7e2b04b5245762dd3f039a9",
+      "M03_MVA_FUS3.xml": "90e26909690e0d04c99da4fde0a4b9c89d9a815a312ba5ef6cfca7d7c595997f",
+      "ZME_TAV.xml": "4ddb6cffd0b6f0781d10474d64a3b5c04a776d640fb90c67abce38b4fc94a6c0"
+    },
+    "version": 1.0
+  },
+  "ZMP:FUS3": {
+    "pack_name": "ZMP MVA-MIA",
+    "source_hashes": {
+      "BIS_MVA_FUS3.xml": "c1232086ce41c32c060b1d5f14be7b2a6ba21d8757d5c7e88fd9198b41f1a527",
+      "DLH_MVA_FUS3.xml": "95c0ef362f4203581e64c57cd67f10b3dc1c873699e0de14ca3cae1506a566d2",
+      "DSM_MVA_FUS3.xml": "3cbd64ffe5357e99dfae4319de469782402ef706aa1578472c67dbcc3952132f",
+      "FAR_MVA_FUS3.xml": "1fd758f10f31f37d7cf26eb158bbf166bf3636f1241cc6df13249e5731decc79",
+      "FSD_MVA_FUS3.xml": "52c32d0183abafbd96e80639bb855603830b100161a7dcd275f198393ce6616b",
+      "GRB_MVA_FUS3.xml": "595128d8f9eff1acbc64fcb9689fa53b25653f6dddc19cd9bb065b3b0b417579",
+      "M98_MVA_FUS3.xml": "6c4fc509152b1f5917d0ee80013d3097c9834572f4bf49afcb171692f4bac992",
+      "R90_MVA_FUS3.xml": "1554277454a025de9006e2f0c14860f4dc5dca3d98facade0de18cb81fdb509f",
+      "RST_MVA_FUS3.xml": "109028a6285aa24a3b6c914e673aec620db3d2dcd27dea979b2455e049bcbbb7",
+      "SUX_MVA_FUS3.xml": "5fe1b92acc8dd932e65f387b0723997361fee058fefbc1707718aec408c572fa",
+      "ZMP_TAV.xml": "72eb590131294c386a51001de714cdbd23eda612857dfc2d2e094ada26affdc3"
+    },
+    "version": 1.0
+  },
+  "ZNY:FUS3": {
+    "pack_name": "ZNY MVA-MIA",
+    "source_hashes": {
+      "ABE_MVA_FUS3.xml": "b7be65d5f1ee5b5ec6f9e7495b8d20cdb263de774716357da85d306204f378bb",
+      "BGM_MVA_FUS3.xml": "3726783157b710c26fe7480f4d764f31bb892daa143a63d2dacf6b8329eb47ab",
+      "ELM_MVA_FUS3.xml": "d68652213bc51dac2384048b797b1f52a6079455e4be2c661ee94527520df12d",
+      "MDT_MVA_FUS3.xml": "4f0b0b477335875d0c1ef6eb15aaa5c35f44b13b308d909efd56339be233f11c",
+      "N90_MVA_FUS3.xml": "0dc3e206d08cf8afedc1cd3f006701340f30c4bd5193547255ae376301218e19",
+      "PHL_MVA_FUS3.xml": "ae239b9409bb2ab09778c19e3e9519825bac988b9635120d1b1f915c2ebf7a0e",
+      "RDG_MVA_FUS3.xml": "ddb8e3caabbe43f3609f725beba9f156450a3cee7f80adeb4231cf729a6b6ba2",
+      "ZNY_TAV.xml": "0998b97c563927cd958b073f03351b35c4cfe34a3256a3df8705008a40c6dd28"
+    },
+    "version": 1.0
+  },
+  "ZOA:FUS3": {
+    "pack_name": "ZOA MVA-MIA",
+    "source_hashes": {
+      "FAT_MVA_FUS3.xml": "f84eb1b7db82936643dd49271788790fb2acffb25d08a2b6ed7b1da11d30ee5f",
+      "NCT_MVA_FUS3.xml": "3777ce91224417b589959b25b4cd3d7c89eed7718283104c52176984fb7f65bf",
+      "ZOA_QMV_MVA.xml": "844aa5bcb33835801a3437ea177cb34317b8c57395392f598b2af91d642f198c",
+      "ZOA_RBL_MVA.xml": "38505e04bf5df5711b02707046b3f4634ad6445c63bb5132abdcac4e916d623c",
+      "ZOA_TAV.xml": "e871f72859236c38d19fa793240ff7b362f5c76e564c673f6c7e285f4addba75"
+    },
+    "version": 1.0
+  },
+  "ZOB:FUS3": {
+    "pack_name": "ZOB MVA-MIA",
+    "source_hashes": {
+      "BUF_MVA_FUS3.xml": "43b73dd507466f645898d2c5b4b917be183217f2a25c74c4f1f282f642d23098",
+      "CKB_MVA_FUS3.xml": "d56033ccec391d187ff6df846cfec0eca1fdbed019965e4ea23ffbb546083593",
+      "CLE_MVA_FUS3.xml": "5bbbc0ed940a2774e0fb717426f795a9639a1349faed53c19c0e9e51e9d7569d",
+      "D21_MVA_FUS3.xml": "4df8f135e3d385a1a09814c305a5c588b746696bb8a7b0ef561c25c82563e546",
+      "PIT_MVA_FUS3.xml": "6c2901e3b74ab5de5d9a31be4f4ac0fbebf0fe57f9fdd33350ca5f5e8d27062c",
+      "ROC_MVA_FUS3.xml": "d2242eaddeb5417ff73c7d59af2edc8c3de8850e40d88d9c6c24c971beda6948",
+      "TOL_MVA_FUS3.xml": "d8708b82ee0cbf6525ba728ee569ab7336221c40f285b9207c2898675905e9be",
+      "YNG_MVA_FUS3.xml": "6d013e6464a7f99460c19f67255d3ec3a22e54fe94853a623060f8308ba5736c",
+      "ZOB_TAV.xml": "7739f61d66c03ee988f1db3b4ed061c703540e0c374673286e38dae417ccfbcd"
+    },
+    "version": 1.0
+  },
+  "ZSE:FUS3": {
+    "pack_name": "ZSE MVA-MIA",
+    "source_hashes": {
+      "EUG_MVA_FUS3.xml": "638410088c434c98c6cdb36b34b289fdf2fe318727b406cdb59e761df125d34b",
+      "GEG_MSO_MVA_FUS3.xml": "d0353d52921795331cb0698ad54dcd068464953320d8c4ef758b877454438ed1",
+      "GEG_MVA_FUS3.xml": "7073096e4956accee8c50d3f6eaf8b640a601e4d3ccba6a56ee64f6f90e61b31",
+      "GEG_PSC_MVA_FUS3.xml": "f052ccaa6280c42feabf4d387ae583bfee8ac479dee33d4ccd51322130b9dd26",
+      "MWH_MVA_FUS3.xml": "4f6ed9606c2f86a02a24ea5f829c02bb9aae038b4583ea8f9552d50dff09ff71",
+      "P80_MVA_FUS3.xml": "5ec29f2a891695d16081d077dffc2c6c8e0f1b463cb342b823784e162eaacece",
+      "S46_MVA_FUS3.xml": "2e5cc1bb72779218d2f343dcf7549d3bdb4caf673419e6353a6dfd6c4580f864",
+      "ZSE_TAV.xml": "cbe043bb67d6e43d32baa18e3ad0124dfdd54e0ceeabad32813c3987eb58c214"
+    },
+    "version": 1.0
+  },
+  "ZSU:FUS3": {
+    "pack_name": "ZSU MVA-MIA",
+    "source_hashes": {
+      "ZSU_MVA_FUS3.xml": "8c2bfe30360c93a6ce2af7aad6b838eb8e4fd07315645ba0332062f0faf652aa",
+      "ZSU_TAV.xml": "669755cae739a7bc0d1ed8a820a60c2d0c519bfb89b552edf2a7664bbe6c05d9"
+    },
+    "version": 1.0
+  },
+  "ZTL:FUS3": {
+    "pack_name": "ZTL MVA-MIA",
+    "source_hashes": {
+      "A80_MVA_FUS3.xml": "06e11b12552a1488af7e28e1a92b2d0134e5592e16cf07821e4b4b453e0b4438",
+      "AGS_MVA_FUS3.xml": "9186e362ba9f4aa6294aa3832b14497e5538d48a387ad16ec9414841459e4513",
+      "AVL_MVA_FUS3.xml": "c49e64272785b36e954fc5a245e265f5b8eb432a2b14d2657b471727f56eb817",
+      "BHM_MVA_FUS3.xml": "d526ffff4915200e2a6d9701c43fd9d118a98a2d0c6ad09f3b901f47767bd8b0",
+      "CHA_MVA_FUS3.xml": "032bc2d978a58abcab50f97fd371f2ac819b627c965d5859b57bc97ea86e0de9",
+      "CLT_MVA_FUS3.xml": "f62c2f20c82177bcc8a29877a550d0fb114d59ba3b33e1ccc59614274c3e2996",
+      "GSP_MVA_FUS3.xml": "ac12d6930f84895fcc573149b6966bfbab06fa14be3cb94770207469e1dd800b",
+      "MGM_MVA_FUS3.xml": "62be30633f5762dd7a9653be732e8e4abeda3327d98d74f6c9a2683b470a86c3",
+      "TRI_MVA_FUS3.xml": "17c8dfbe793dd5705bb3791224443e31bcfb5309278a22503db8c5830881dfe4",
+      "TYS_MVA_FUS3.xml": "3ed30871fdccdc7f82415b2626cc80231f14366b0392e7e64665554b8d098a48",
+      "ZTL_TAV.xml": "77eca03c31eacc8c2431c13bd3f5e111b96cf01ec788413dd9a9e5761b543aff"
+    },
+    "version": 1.0
+  }
+}
