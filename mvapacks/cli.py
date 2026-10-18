@@ -173,7 +173,8 @@ def _build_one(reg, style, renderer, ac, fus, names, bump, bstate, lock):
     # ARTCC MIA layer
     mia = facility_files(DATA, ac, 'mia')
     if mia:
-        lname = f'{label} MIA'
+        # 'combined' names the pack only; the MIA layer keeps the bare center code
+        lname = f'{reg.artcc_label(ac, "full" if names == "full" else "code")} MIA'
         kmz = os.path.join(layers_dir, f'{lname}.kmz')
         n = packmod.build_layer_kmz(kmz, lname, mia, renderer, style)
         layer_meta.append({'name': lname, 'sectors': n,
@@ -270,7 +271,8 @@ def main(argv=None):
     g.add_argument('--stale', action='store_true', help='Build only packs whose source data changed')
     g.add_argument('--artcc', nargs='+', metavar='CODE', help='Build specific ARTCC(s), e.g. ZDC ZTL')
     pb.add_argument('--fus', type=int, choices=(3, 5), default=3, help='MVA chart version (3=normal, 5=degraded)')
-    pb.add_argument('--names', choices=('code', 'full'), default='code', help='Label style in pack/layer names')
+    pb.add_argument('--names', choices=('combined', 'code', 'full'), default='combined',
+                    help="Label style: combined -> 'Washington-ZDC MVA-MIA' (default), code -> 'ZDC MVA-MIA', full -> 'Washington MVA-MIA'")
     pb.add_argument('--bump-version', action='store_true', help='Increment manifest version (forces FF re-import refresh)')
     pb.set_defaults(func=cmd_build)
 

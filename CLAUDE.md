@@ -55,12 +55,14 @@ Tracked state: `state/sources.lock.json`, `state/build_state.json`.
   renders a `LabelStyle` with a name "chip"; an icon-image PNG on a nameless placemark has
   no chrome. ForeFlight also does **not** support `Region`/`Lod` (no zoom-based hiding),
   `GroundOverlay`, or `StyleMap` normal+highlight — don't reach for those.
-- **Defaults:** `--fus 3` (normal 3 nm buffer; FUS5 is degraded-mode 5 nm), `--names code`.
+- **Defaults:** `--fus 3` (normal 3 nm buffer; FUS5 is degraded-mode 5 nm), `--names combined`.
 - **Boundaries are polygons** with `fill=0, outline=1`. ForeFlight adds its own faint light
   halo to polygon lines in both basemap modes — that's expected and looks good; don't try
   to defeat it.
-- Pack naming: `<label> MVA-MIA` (e.g. `ZDC MVA-MIA`); layer names `<label> MVA` /
-  `<ARTCC label> MIA`. `--names full` swaps codes for spelled-out names.
+- Pack naming: `<label> MVA-MIA`; layer names `<label> MVA` / `<ARTCC label> MIA`.
+  Default `--names combined` gives `<Center>-<ARTCC>` for the pack name only
+  (`Washington-ZDC MVA-MIA`); layers keep codes (`GSO MVA`, `ZDC MIA`).
+  `--names code` → `ZDC MVA-MIA`; `--names full` spells out center and facility names.
 
 ## Data sourcing (FAA-direct)
 
@@ -116,5 +118,5 @@ mapping is self-consistent and reproducible. Result lives in `config/artccs.yaml
 
 No formal test suite yet. The practical smoke test is the snapshot pipeline:
 `python -m mvapacks.cli update --from-local <snapshot-dir> && python -m mvapacks.cli build --artcc ZDC`,
-then inspect `dist/ZDC MVA-MIA.zip` (9 layers; GSO 10 / PCT 26 / ROA 27 / ZDC MIA 24 sectors
+then inspect `dist/Washington-ZDC MVA-MIA.zip` (9 layers; GSO 10 / PCT 26 / ROA 27 / ZDC MIA 24 sectors
 with the current data vintage).

@@ -25,11 +25,15 @@ class Registry:
     def facilities(self, artcc):
         return [f['code'] for f in self.artccs[artcc].get('facilities', [])]
 
-    def artcc_label(self, artcc, style='code'):
-        return artcc if style == 'code' else self.artccs[artcc].get('name', artcc)
+    def artcc_label(self, artcc, style='combined'):
+        name = self.artccs[artcc].get('name', artcc)
+        if style == 'combined':
+            return f'{name}-{artcc}' if name != artcc else artcc
+        return artcc if style == 'code' else name
 
-    def facility_label(self, code, style='code'):
-        if style == 'code':
+    def facility_label(self, code, style='combined'):
+        # 'combined' only changes the center label; facility layers keep their codes
+        if style in ('code', 'combined'):
             return code
         return self._fac.get(code, (None, code))[1]
 

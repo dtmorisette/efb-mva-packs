@@ -1,6 +1,6 @@
 {
   "ZAB:FUS3": {
-    "pack_name": "ZAB MVA-MIA",
+    "pack_name": "Albuquerque-ZAB MVA-MIA",
     "source_hashes": {
       "ABQ_MVA_FUS3.xml": "af6edd0ca174dd845b494475cab6d182dc700fa2a21fff65c6254bd612fcfca4",
       "AMA_MVA_FUS3.xml": "3a7fdb564a0d733aa3333a9dd5ae47bdfb69fe926a484e0eb65402ad94631f8a",
@@ -13,7 +13,7 @@
     "version": 1.0
   },
   "ZAN:FUS3": {
-    "pack_name": "ZAN MVA-MIA",
+    "pack_name": "Anchorage-ZAN MVA-MIA",
     "source_hashes": {
       "A11_MVA_FUS3.xml": "a4c6369ca90f0581894a38aa3d24f9ca466f454162ebd2df0df2b76a648eb72a",
       "FAI_MVA_FUS3.xml": "2900d39c27a980092b0e6ff096e0b27b464a7c4380fcfd57aade707c28fec202",
@@ -22,7 +22,7 @@
     "version": 1.0
   },
   "ZAU:FUS3": {
-    "pack_name": "ZAU MVA-MIA",
+    "pack_name": "Chicago-ZAU MVA-MIA",
     "source_hashes": {
       "ALO_MVA_FUS3.xml": "0d6b2bf7643e84be5a2f910244b9ed8e73573f2242c475129f3766fa504c6de9",
       "AZO_MVA_FUS3.xml": "d947479bc595f2a4ec49517c02cc9388e67164f0a62d0165ee028db643d4c72b",
@@ -39,7 +39,7 @@
     "version": 1.0
   },
   "ZBW:FUS3": {
-    "pack_name": "ZBW MVA-MIA",
+    "pack_name": "Boston-ZBW MVA-MIA",
     "source_hashes": {
       "A90_MVA_FUS3.xml": "633f83bace22f13aaf5baec8b2aaf8838420c84437a1a189e0fe051cc0060cf0",
       "ALB_MVA_FUS3.xml": "3c79453dbe0819a013d903f099e186133a47ee18e0c5cd807215a7c11b3bf091",
@@ -54,7 +54,7 @@
     "version": 1.0
   },
   "ZDC:FUS3": {
-    "pack_name": "ZDC MVA-MIA",
+    "pack_name": "Washington-ZDC MVA-MIA",
     "source_hashes": {
       "ACY_MVA_FUS3.xml": "131418737610b02c2c4bfa0daf382bbda90709d9d4152ea1d112ddee715578f6",
       "FAY_MVA_FUS3.xml": "fbae8c4619d85e176d1449895e11f2ed885c58c69b152ee8decc41fad6beed6e",
@@ -69,7 +69,7 @@
     "version": 1.0
   },
   "ZDV:FUS3": {
-    "pack_name": "ZDV MVA-MIA",
+    "pack_name": "Denver-ZDV MVA-MIA",
     "source_hashes": {
       "ASE_MVA_FUS3.xml": "590e22643378bb9fb326d71cbca947e6c25d94026d167f701b4ee44dc62f81fc",
       "COS_MVA_FUS3.xml": "b970e46bd6833a18aa474547624053b4ecba182285e67a9da31d0f361b44a210",
@@ -81,7 +81,7 @@
     "version": 1.0
   },
   "ZFW:FUS3": {
-    "pack_name": "ZFW MVA-MIA",
+    "pack_name": "Fort Worth-ZFW MVA-MIA",
     "source_hashes": {
       "ABI_MVA_FUS3.xml": "4d3624e0baca9dc082b5f47bfe84834d3c15ffbc9a5cd21cfb7a847343c0473e",
       "ACT_MVA_FUS3.xml": "ddaed29c34b98ee81404f1390c994ce896cc59067fc4d44e0312def28f1feca9",
@@ -97,7 +97,7 @@
     "version": 1.0
   },
   "ZHN:FUS3": {
-    "pack_name": "ZHN MVA-MIA",
+    "pack_name": "Honolulu-ZHN MVA-MIA",
     "source_hashes": {
       "ZHN_MVA_FUS3.xml": "e9095391e702c94dfe175e4c041b48f923002372111fa795401465f19f51e89f",
       "ZHN_TAV.xml": "cf1d699bfb5257b52b6558c418507eafc83266a9102e985f783a83c8b664a719"
@@ -105,7 +105,7 @@
     "version": 1.0
   },
   "ZHU:FUS3": {
-    "pack_name": "ZHU MVA-MIA",
+    "pack_name": "Houston-ZHU MVA-MIA",
     "source_hashes": {
       "AUS_MVA_FUS3.xml": "afcc44fb56cc8ac00c6fb204a8988e839827ae7ffb56695ba3380c6dd28b63b6",
       "BTR_MVA_FUS3.xml": "a7eefc3f2201ad505f9167cc7fd9a90e4a45e1b2dd0217e30f281e2b0ac02584",
@@ -122,7 +122,7 @@
     "version": 1.0
   },
   "ZID:FUS3": {
-    "pack_name": "ZID MVA-MIA",
+    "pack_name": "Indianapolis-ZID MVA-MIA",
     "source_hashes": {
       "CMH_MVA_FUS3.xml": "ddbeb154788de0247c0866e2a400aef7fe4de70d7edf47926b505f1c63995450",
       "CRW_MVA_FUS3.xml": "2ad6ceedc06e789af21a41b6f43a7bd337be6faa426eef6d7407f4d21917a6a2",
@@ -138,7 +138,7 @@
     "version": 1.0
   },
   "ZJX:FUS3": {
-    "pack_name": "ZJX MVA-MIA",
+    "pack_name": "Jacksonville-ZJX MVA-MIA",
     "source_hashes": {
       "CAE_MVA_FUS3.xml": "71e8e1e0afee3865defb3d13c681ba42492e93dc5f7629a0a9536a6cefc33a3f",
       "CHS_MVA_FUS3.xml": "e3be7ef1d0ec678fb915d94a8bcad617b72cab5b5331ba16f84adae00cd7cde8",
@@ -154,7 +154,7 @@
     "version": 1.0
   },
   "ZKC:FUS3": {
-    "pack_name": "ZKC MVA-MIA",
+    "pack_name": "Kansas City-ZKC MVA-MIA",
     "source_hashes": {
       "ICT_MVA_FUS3.xml": "175b18d62a13c39763039841b024964cf89bb472eee63d3ce5b4843beaac8742",
       "MCI_MVA_FUS3.xml": "6cf49acab0eae0537d9527ab72cb3d953c969043846376db131c3bd59a22e600",
@@ -166,7 +166,7 @@
     "version": 1.0
   },
   "ZLA:FUS3": {
-    "pack_name": "ZLA MVA-MIA",
+    "pack_name": "Los Angeles-ZLA MVA-MIA",
     "source_hashes": {
       "BFL_MVA_FUS3.xml": "082bdf1137ecbbefee78221f51aa728966c305f833522773628f0acf138ebb1f",
       "JCF_MVA_FUS3.xml": "ec5d29bb67c40d562ddd747cdd57b1205d002409669b6a62b5ce09c164dbb891",
@@ -178,7 +178,7 @@
     "version": 1.0
   },
   "ZLC:FUS3": {
-    "pack_name": "ZLC MVA-MIA",
+    "pack_name": "Salt Lake City-ZLC MVA-MIA",
     "source_hashes": {
       "BIL_MVA_FUS3.xml": "1aebab2397542fef4e2c00c9121a88541188bc0d419815ebeac4cdaea60baf9b",
       "BOI_BZN_MVA_FUS3.xml": "4a4c51950127e2b635de6544baa427af54a28abd8bf279aebc2e353d23720e6f",
@@ -195,7 +195,7 @@
     "version": 1.0
   },
   "ZMA:FUS3": {
-    "pack_name": "ZMA MVA-MIA",
+    "pack_name": "Miami-ZMA MVA-MIA",
     "source_hashes": {
       "F11_MVA_FUS3.xml": "72c4aac755ba61ce5218cb01fa3decefcc13425617fd184b8520ffe0d6146ba4",
       "MIA_MVA_FUS3.xml": "17826018ea28949e9b6b50d7821f0e376bf4050e68368925c6c7c690f609aac1",
@@ -207,7 +207,7 @@
     "version": 1.0
   },
   "ZME:FUS3": {
-    "pack_name": "ZME MVA-MIA",
+    "pack_name": "Memphis-ZME MVA-MIA",
     "source_hashes": {
       "BNA_MVA_FUS3.xml": "d68277e7687de510590a7e5c4eb872b9403078b3a6c033339ff518ca014fd5f2",
       "HSV_MVA_FUS3.xml": "0361d2306a63b35453a28d986394096cbbc22defaa7ae8b24580876df7da5185",
@@ -219,7 +219,7 @@
     "version": 1.0
   },
   "ZMP:FUS3": {
-    "pack_name": "ZMP MVA-MIA",
+    "pack_name": "Minneapolis-ZMP MVA-MIA",
     "source_hashes": {
       "BIS_MVA_FUS3.xml": "c1232086ce41c32c060b1d5f14be7b2a6ba21d8757d5c7e88fd9198b41f1a527",
       "DLH_MVA_FUS3.xml": "95c0ef362f4203581e64c57cd67f10b3dc1c873699e0de14ca3cae1506a566d2",
@@ -236,7 +236,7 @@
     "version": 1.0
   },
   "ZNY:FUS3": {
-    "pack_name": "ZNY MVA-MIA",
+    "pack_name": "New York-ZNY MVA-MIA",
     "source_hashes": {
       "ABE_MVA_FUS3.xml": "b7be65d5f1ee5b5ec6f9e7495b8d20cdb263de774716357da85d306204f378bb",
       "BGM_MVA_FUS3.xml": "3726783157b710c26fe7480f4d764f31bb892daa143a63d2dacf6b8329eb47ab",
@@ -250,7 +250,7 @@
     "version": 1.0
   },
   "ZOA:FUS3": {
-    "pack_name": "ZOA MVA-MIA",
+    "pack_name": "Oakland-ZOA MVA-MIA",
     "source_hashes": {
       "FAT_MVA_FUS3.xml": "f84eb1b7db82936643dd49271788790fb2acffb25d08a2b6ed7b1da11d30ee5f",
       "NCT_MVA_FUS3.xml": "3777ce91224417b589959b25b4cd3d7c89eed7718283104c52176984fb7f65bf",
@@ -261,7 +261,7 @@
     "version": 1.0
   },
   "ZOB:FUS3": {
-    "pack_name": "ZOB MVA-MIA",
+    "pack_name": "Cleveland-ZOB MVA-MIA",
     "source_hashes": {
       "BUF_MVA_FUS3.xml": "43b73dd507466f645898d2c5b4b917be183217f2a25c74c4f1f282f642d23098",
       "CKB_MVA_FUS3.xml": "d56033ccec391d187ff6df846cfec0eca1fdbed019965e4ea23ffbb546083593",
@@ -276,7 +276,7 @@
     "version": 1.0
   },
   "ZSE:FUS3": {
-    "pack_name": "ZSE MVA-MIA",
+    "pack_name": "Seattle-ZSE MVA-MIA",
     "source_hashes": {
       "EUG_MVA_FUS3.xml": "638410088c434c98c6cdb36b34b289fdf2fe318727b406cdb59e761df125d34b",
       "GEG_MSO_MVA_FUS3.xml": "d0353d52921795331cb0698ad54dcd068464953320d8c4ef758b877454438ed1",
@@ -290,7 +290,7 @@
     "version": 1.0
   },
   "ZSU:FUS3": {
-    "pack_name": "ZSU MVA-MIA",
+    "pack_name": "San Juan-ZSU MVA-MIA",
     "source_hashes": {
       "ZSU_MVA_FUS3.xml": "8c2bfe30360c93a6ce2af7aad6b838eb8e4fd07315645ba0332062f0faf652aa",
       "ZSU_TAV.xml": "669755cae739a7bc0d1ed8a820a60c2d0c519bfb89b552edf2a7664bbe6c05d9"
@@ -298,7 +298,7 @@
     "version": 1.0
   },
   "ZTL:FUS3": {
-    "pack_name": "ZTL MVA-MIA",
+    "pack_name": "Atlanta-ZTL MVA-MIA",
     "source_hashes": {
       "A80_MVA_FUS3.xml": "06e11b12552a1488af7e28e1a92b2d0134e5592e16cf07821e4b4b453e0b4438",
       "AGS_MVA_FUS3.xml": "9186e362ba9f4aa6294aa3832b14497e5538d48a387ad16ec9414841459e4513",

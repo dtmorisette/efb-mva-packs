@@ -38,7 +38,7 @@ Built packs land in `dist/<PACK>.zip`, ready to import into ForeFlight
 | Flag | Meaning |
 |------|---------|
 | `--fus {3,5}` | Which MVA chart to use. **FUS3** = normal (3 nm terrain/obstacle buffer). **FUS5** = degraded-mode (5 nm, larger coverage). Default 3. |
-| `--names {code,full}` | Layer/pack naming. `code` → `GSO MVA`, `ZDC MVA-MIA`. `full` → `Piedmont Triad MVA`, `Washington MVA-MIA`. Default `code`. |
+| `--names {combined,code,full}` | Layer/pack naming. `combined` → pack `Washington-ZDC MVA-MIA`; layers keep codes (`GSO MVA`, `ZDC MIA`). `code` → `ZDC MVA-MIA`. `full` → `Washington MVA-MIA`, `Piedmont Triad MVA`. Default `combined`. |
 | `--bump-version` | Increment the pack's `manifest.json` version. ForeFlight uses this field to recognise a re-imported pack as newer, so bump when the data changed. |
 
 ## How update detection works
