@@ -7,6 +7,10 @@ separately toggleable layers.
 
 Data is sourced **directly from the FAA** (`aeronav.faa.gov`), not a third-party mirror.
 
+> **Not for navigation. For educational use only.** Although this data is extracted
+> directly from official FAA sources, it is provided "as is" with no representation or
+> warranty that it is accurate, complete, or current. See the [Disclaimer](#disclaimer).
+
 ## Install
 
 ```bash
@@ -107,6 +111,23 @@ charts/          released per-chart KMZs by ARTCC       (tracked; written by `re
 
 ## Data source & attribution
 
-Chart data © FAA, public domain, from
+Chart data is a U.S. Government work in the public domain, published by the FAA at
 <https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/mva_mia/>.
-For planning/EFB visualisation only — not for navigation.
+
+## Disclaimer
+
+**Not for navigation. For educational use only.**
+
+- The chart data is extracted directly from official FAA sources, but the authors make
+  **no representations or warranties of any kind**, express or implied, that it is
+  accurate, complete, current, or fit for any particular purpose. Everything in this
+  repository and its releases is provided **"as is"**.
+- The data is converted and processed: boundaries are redrawn as KML and altitude labels
+  are positioned automatically. That processing can introduce errors. The FAA may also
+  revise or withdraw a chart at any time, so any copy here may be out of date.
+- Do not use this data for navigation, flight planning, terrain or obstacle clearance, or
+  any other operational purpose. MVAs and MIAs are altitudes used by air traffic control;
+  rely only on current official FAA publications and ATC instructions.
+- This project is not affiliated with, endorsed by, or supported by the FAA or ForeFlight.
+- You use this data entirely at your own risk. The authors accept no liability for any
+  loss, damage, or injury arising from its use.

@@ -106,6 +106,12 @@ mapping is self-consistent and reproducible. Result lives in `config/artccs.yaml
   `status` → `build --artcc ZDC` reproduced the approved ZDC pack (correct layers, sector
   counts, and byte-identical label dimensions).
 - All 23 ARTCC packs built from live FAA data (2026-10-18); `release` command added.
+- **Disclaimer:** full text in `README.md#disclaimer`; short forms in `mvapacks/disclaimer.py`
+  (chart READMEs, release notes, each pack's `provenance.json`). Keep them in sync.
+- **Tabled (user decision pending):** facilities with several FAA chart files are merged into
+  one layer by filename prefix. Where those charts overlap (HLN MULTI+VOR, GEG+GEG_PSC,
+  TWF TWF+BYI) they draw on top of each other and can't be toggled apart. Options: one layer
+  per chart file for every multi-file facility (+7 layers), or only for the overlapping ones (+4).
 - **Not yet done:** the optional weekly GitHub Action (deliberately deferred by the user;
   it would run `update` → `build --stale` → `release --publish`); display-name cleanup.
 

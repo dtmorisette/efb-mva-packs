@@ -6,6 +6,7 @@ import zipfile
 
 from .parse import parse_airspaces, vintage_tag
 from .labels import LabelRenderer
+from .disclaimer import SHORT as DISCLAIMER
 
 # Fixed entry timestamp so unchanged inputs produce byte-identical zips/KMZs
 # (lets built charts be committed without churning on every rebuild).
@@ -22,13 +23,27 @@ def write_zip(out_path, entries):
             z.writestr(zi, entries[arc])
 
 
-def _rep_point(exterior):
+def label_point(rings):
+    """Label anchor for a sector: its pole of inaccessibility (the interior point
+    farthest from any edge), honoring holes so a ring-shaped sector's label never
+    lands in the hole. Longitude is scaled by cos(lat) so "farthest" is measured in
+    roughly true distance rather than raw degrees."""
+    from math import cos, radians
     try:
         from shapely.geometry import Polygon
-        return Polygon(exterior).representative_point().coords[0]
+        from shapely.ops import polylabel
+        k = cos(radians(sum(c[1] for c in rings[0]) / len(rings[0])))
+        poly = Polygon([(x * k, y) for x, y in rings[0]],
+                       [[(x * k, y) for x, y in r] for r in rings[1:]])
+        if not poly.is_valid:
+            poly = poly.buffer(0)
+        if poly.geom_type == 'MultiPolygon':
+            poly = max(poly.geoms, key=lambda g: g.area)
+        pt = polylabel(poly, tolerance=1e-4)  # ~10 m
+        return (pt.x / k, pt.y)
     except Exception:
-        xs = [c[0] for c in exterior]
-        ys = [c[1] for c in exterior]
+        xs = [c[0] for c in rings[0]]
+        ys = [c[1] for c in rings[0]]
         return (sum(xs) / len(xs), sum(ys) / len(ys))
 
 
@@ -75,7 +90,7 @@ def build_layer_kmz(out_path, layer_name, xml_paths, renderer: LabelRenderer, st
                      '</coordinates></LinearRing></innerBoundaryIs>')
         poly += '</Polygon>'
         placemarks.append(f'<Placemark><styleUrl>#edge</styleUrl>{poly}</Placemark>')
-        lon, lat = _rep_point(ext)
+        lon, lat = label_point(rings)
         placemarks.append(
             f'<Placemark><styleUrl>#L{feet}</styleUrl>'
             f'<Point><coordinates>{lon},{lat}</coordinates></Point></Placemark>'
@@ -106,7 +121,7 @@ def assemble_pack(pack_dir, pack_name, abbreviation, version, layers):
     }
     with open(os.path.join(pack_dir, 'manifest.json'), 'w') as f:
         json.dump(manifest, f)
-    prov = {'pack': pack_name, 'version': version, 'layers': layers}
+    prov = {'pack': pack_name, 'version': version, 'disclaimer': DISCLAIMER, 'layers': layers}
     with open(os.path.join(pack_dir, 'provenance.json'), 'w') as f:
         json.dump(prov, f, indent=2)
     return pack_dir

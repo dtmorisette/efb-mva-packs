@@ -23,9 +23,8 @@ import subprocess
 import urllib.parse
 
 from .pack import write_zip
+from .disclaimer import short_markdown
 
-DISCLAIMER = ('**Not for navigation.** For planning and situational awareness only. '
-              'Built from FAA MVA/MIA AIXM data; always defer to ATC and official sources.')
 TAG_PREFIX = 'data-'
 
 
@@ -91,8 +90,12 @@ def _sync_dir(src_files, dest_dir):
     return added, changed, removed
 
 
-def _center_readme(ac, center, prov, releases_url):
-    lines = [f'# {center} ({ac}) MVA/MIA charts', '', DISCLAIMER, '',
+def _disclaimer(slug):
+    return short_markdown(f'https://github.com/{slug}#disclaimer' if slug else '../README.md#disclaimer')
+
+
+def _center_readme(ac, center, prov, releases_url, slug):
+    lines = [f'# {center} ({ac}) MVA/MIA charts', '', _disclaimer(slug), '',
              'Each file is a standalone KMZ layer. The whole center is also available as one '
              f'ForeFlight content pack on the [Releases]({releases_url}) page.', '',
              '| Chart | Sectors | FAA vintage | Source file(s) |', '|---|---:|---|---|']
@@ -149,13 +152,13 @@ def stage(root, reg, bstate, lock, pack_sources, hashes_for, fus=3, today=None):
         for k, names in zip(('added', 'changed', 'removed'), (a, c, r)):
             summary[k] += [f'{ac}/{n}' for n in names]
         with open(os.path.join(charts, ac, 'README.md'), 'w') as f:
-            f.write(_center_readme(ac, p['center'], p['prov'], releases_url))
+            f.write(_center_readme(ac, p['center'], p['prov'], releases_url, slug))
     for d in sorted(os.listdir(charts)) if os.path.isdir(charts) else []:
         full = os.path.join(charts, d)
         if os.path.isdir(full) and d not in keep:
             summary['removed'] += [f'{d}/{n}' for n in os.listdir(full) if n.endswith('.kmz')]
             shutil.rmtree(full)
-    index = ['# MVA/MIA charts by center', '', DISCLAIMER, '',
+    index = ['# MVA/MIA charts by center', '', _disclaimer(slug), '',
              'Individual KMZ chart layers, one folder per ARTCC. Full ForeFlight content packs '
              f'are attached to each [release]({releases_url}).', '',
              '| Center | Charts |', '|---|---:|']
@@ -217,7 +220,7 @@ def _release_notes(root, tag, prev, packs, full_name, fus):
     nlayers = sum(len(p['prov']['layers']) for p in packs)
     lines = [f'FAA Minimum Vectoring Altitude (MVA) and Minimum IFR Altitude (MIA) chart overlays '
              f'for ForeFlight, one content pack per ARTCC: {len(packs)} centers, {nlayers} charts '
-             f'(FUS{fus}).', '', DISCLAIMER, '',
+             f'(FUS{fus}).', '', _disclaimer(slug), '',
              '## Downloads', '',
              f'- **All centers:** `{full_name}` contains every pack below. Unzip it, then import '
              'the packs you want.',
