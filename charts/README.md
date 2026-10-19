@@ -1,6 +1,6 @@
 # MVA/MIA charts by center
 
-**Not for navigation.** For planning and situational awareness only. Built from FAA MVA/MIA AIXM data; always defer to ATC and official sources.
+**Not for navigation. For educational use only.** Although this data is extracted directly from official FAA sources, it is provided "as is" with no representation or warranty that it is accurate, complete, or current. Use it at your own risk; see the [full disclaimer](https://github.com/dtmorisette/efb-mva-packs#disclaimer).
 
 Individual KMZ chart layers, one folder per ARTCC. Full ForeFlight content packs are attached to each [release](https://github.com/dtmorisette/efb-mva-packs/releases/latest).
 

@@ -10,7 +10,7 @@
       "U90_MVA_FUS3.xml": "312211742ffbcd9f885de2c7e971beae431f4632101a5f33b9035ed70b3946b8",
       "ZAB_TAV.xml": "78867cbfec1ec8ca67755a55e6f8e5c003670464362928d7d28143dbf7f178fb"
     },
-    "version": 1.0
+    "version": 1.1
   },
   "ZAN:FUS3": {
     "pack_name": "Anchorage-ZAN MVA-MIA",
@@ -19,7 +19,7 @@
       "FAI_MVA_FUS3.xml": "2900d39c27a980092b0e6ff096e0b27b464a7c4380fcfd57aade707c28fec202",
       "ZAN_TAV.xml": "0509bf3507df3d521edd022fea1caf0a7f751997a033203a2f63569182539467"
     },
-    "version": 1.0
+    "version": 1.1
   },
   "ZAU:FUS3": {
     "pack_name": "Chicago-ZAU MVA-MIA",
@@ -36,7 +36,7 @@
       "SBN_MVA_FUS3.xml": "aafcafeec2ed8b2eaba442993716110fb8133d08af5de5653e8917614166f408",
       "ZAU_TAV.xml": "9394d3ae1e4650d12cbfdd3c6d45cba6f502a033f880b45790382a05462e13a6"
     },
-    "version": 1.0
+    "version": 1.1
   },
   "ZBW:FUS3": {
     "pack_name": "Boston-ZBW MVA-MIA",
@@ -51,7 +51,7 @@
       "Y90_MVA_FUS3.xml": "d15cf59f6426a80c0d21d561b6c8c92e00cb49c54ed5462aa305f0ec4cda4ce2",
       "ZBW_TAV.xml": "b4959881dcb6b319a0ba470423f6ef650e9d226f104871e8a80487951c6fe9e5"
     },
-    "version": 1.0
+    "version": 1.1
   },
   "ZDC:FUS3": {
     "pack_name": "Washington-ZDC MVA-MIA",
@@ -66,7 +66,7 @@
       "ROA_MVA_FUS3.xml": "f1500698d76bb8420820a11906e4ed93d0656977af1e1e7f140bdeaa8c928926",
       "ZDC_TAV.xml": "f4ee088e311b4d078c8cc75d8a28990673db34c1e6157c3f947756dc0972b8bd"
     },
-    "version": 1.0
+    "version": 1.1
   },
   "ZDV:FUS3": {
     "pack_name": "Denver-ZDV MVA-MIA",
@@ -78,7 +78,7 @@
       "D01_GJT_MVA_FUS3.xml": "fa69c40d39bcc6bcb36601d5303fb05cd73b55bee2798a55ab27f58d56a778b8",
       "ZDV_TAV.xml": "e559252ab05bad5c7ded6623672dbc242e81517cce3f5433423c322f60eefae7"
     },
-    "version": 1.0
+    "version": 1.1
   },
   "ZFW:FUS3": {
     "pack_name": "Fort Worth-ZFW MVA-MIA",
@@ -94,7 +94,7 @@
       "SHV_MVA_FUS3.xml": "e22648970fb085670ca44d5d1ee943a93f3c7c104c04b14928226b0f4a0fa8fa",
       "ZFW_TAV.xml": "8b57993c4f3b886c259e3ff2a1f8f76c8869fc510dd4791b7184eec0a8f1127f"
     },
-    "version": 1.0
+    "version": 1.1
   },
   "ZHN:FUS3": {
     "pack_name": "Honolulu-ZHN MVA-MIA",
@@ -102,7 +102,7 @@
       "ZHN_MVA_FUS3.xml": "e9095391e702c94dfe175e4c041b48f923002372111fa795401465f19f51e89f",
       "ZHN_TAV.xml": "cf1d699bfb5257b52b6558c418507eafc83266a9102e985f783a83c8b664a719"
     },
-    "version": 1.0
+    "version": 1.1
   },
   "ZHU:FUS3": {
     "pack_name": "Houston-ZHU MVA-MIA",
@@ -119,7 +119,7 @@
       "SAT_MVA_FUS3.xml": "c5a19a54d485d36945c4ce2d04181ce0670e8a98ab632656c39fd711fb8acfb9",
       "ZHU_TAV.xml": "a0889263d110c37bfe61e72331c32d32dcff018720f49fd50a36a259b63d44d5"
     },
-    "version": 1.0
+    "version": 1.1
   },
   "ZID:FUS3": {
     "pack_name": "Indianapolis-ZID MVA-MIA",
@@ -135,7 +135,7 @@
       "SDF_MVA_FUS3.xml": "4988799a200ceb86e0637484867c3d9d0e18942b6a3b3fba821a5a3abd8cf62f",
       "ZID_TAV.xml": "4add271ece0a0677843cada7632d1767e070f6e8ec2a719d2308e4d98c5b4333"
     },
-    "version": 1.0
+    "version": 1.1
   },
   "ZJX:FUS3": {
     "pack_name": "Jacksonville-ZJX MVA-MIA",
@@ -151,7 +151,7 @@
       "TLH_MVA_FUS3.xml": "ca29856e75aa0a5cc3dda652a6f8692a6a4f0206b89cfb3deea4402255dc85d0",
       "ZJX_TAV.xml": "8d17369a9a2346636117948b985d9a4c909dfeef8ad2eb611dad18ea37fa8dd2"
     },
-    "version": 1.0
+    "version": 1.1
   },
   "ZKC:FUS3": {
     "pack_name": "Kansas City-ZKC MVA-MIA",
@@ -163,7 +163,7 @@
       "TUL_MVA_FUS3.xml": "c2bd0ff28450f78dbd482235254edca67c3054281e024a5cef45f6791aaf27e3",
       "ZKC_TAV.xml": "28e3754f5cb903f6ee2225758d72cf61f9410ce1be5b063d8ca4457e4aa736bf"
     },
-    "version": 1.0
+    "version": 1.1
   },
   "ZLA:FUS3": {
     "pack_name": "Los Angeles-ZLA MVA-MIA",
@@ -175,7 +175,7 @@
       "SCT_MVA_FUS3.xml": "7fb473d40c1cbddb50782b16e747010ce0380d3eed2e74efbba9569707536324",
       "ZLA_TAV.xml": "7f0d8c48017f1a28416b246b37803f4ac6e89b73f3eef41e42ec0e0c53bb9b34"
     },
-    "version": 1.0
+    "version": 1.1
   },
   "ZLC:FUS3": {
     "pack_name": "Salt Lake City-ZLC MVA-MIA",
@@ -192,7 +192,7 @@
       "ZLC_GTF_MVA_FUS3.xml": "ef62229f8d64c6377f24540f0cc6d32fe051268ef6432a9dc477d7b2f2d60710",
       "ZLC_TAV.xml": "9236e8e11f51e1ebb868fadcf791a56951d37f84a129484d0999edd683205635"
     },
-    "version": 1.0
+    "version": 1.1
   },
   "ZMA:FUS3": {
     "pack_name": "Miami-ZMA MVA-MIA",
@@ -204,7 +204,7 @@
       "TPA_MVA_FUS3.xml": "95d66aa4715958621dd377a4c1eda52428b6d0304ed5b3eab427e336da0a73bf",
       "ZMA_TAV.xml": "f76390269981783df9243060590eb360e573bb5f7d49cb9300c33984f183e570"
     },
-    "version": 1.0
+    "version": 1.1
   },
   "ZME:FUS3": {
     "pack_name": "Memphis-ZME MVA-MIA",
@@ -216,7 +216,7 @@
       "M03_MVA_FUS3.xml": "90e26909690e0d04c99da4fde0a4b9c89d9a815a312ba5ef6cfca7d7c595997f",
       "ZME_TAV.xml": "4ddb6cffd0b6f0781d10474d64a3b5c04a776d640fb90c67abce38b4fc94a6c0"
     },
-    "version": 1.0
+    "version": 1.1
   },
   "ZMP:FUS3": {
     "pack_name": "Minneapolis-ZMP MVA-MIA",
@@ -233,7 +233,7 @@
       "SUX_MVA_FUS3.xml": "5fe1b92acc8dd932e65f387b0723997361fee058fefbc1707718aec408c572fa",
       "ZMP_TAV.xml": "72eb590131294c386a51001de714cdbd23eda612857dfc2d2e094ada26affdc3"
     },
-    "version": 1.0
+    "version": 1.1
   },
   "ZNY:FUS3": {
     "pack_name": "New York-ZNY MVA-MIA",
@@ -247,7 +247,7 @@
       "RDG_MVA_FUS3.xml": "ddb8e3caabbe43f3609f725beba9f156450a3cee7f80adeb4231cf729a6b6ba2",
       "ZNY_TAV.xml": "0998b97c563927cd958b073f03351b35c4cfe34a3256a3df8705008a40c6dd28"
     },
-    "version": 1.0
+    "version": 1.1
   },
   "ZOA:FUS3": {
     "pack_name": "Oakland-ZOA MVA-MIA",
@@ -258,7 +258,7 @@
       "ZOA_RBL_MVA.xml": "38505e04bf5df5711b02707046b3f4634ad6445c63bb5132abdcac4e916d623c",
       "ZOA_TAV.xml": "e871f72859236c38d19fa793240ff7b362f5c76e564c673f6c7e285f4addba75"
     },
-    "version": 1.0
+    "version": 1.1
   },
   "ZOB:FUS3": {
     "pack_name": "Cleveland-ZOB MVA-MIA",
@@ -273,7 +273,7 @@
       "YNG_MVA_FUS3.xml": "6d013e6464a7f99460c19f67255d3ec3a22e54fe94853a623060f8308ba5736c",
       "ZOB_TAV.xml": "7739f61d66c03ee988f1db3b4ed061c703540e0c374673286e38dae417ccfbcd"
     },
-    "version": 1.0
+    "version": 1.1
   },
   "ZSE:FUS3": {
     "pack_name": "Seattle-ZSE MVA-MIA",
@@ -287,7 +287,7 @@
       "S46_MVA_FUS3.xml": "2e5cc1bb72779218d2f343dcf7549d3bdb4caf673419e6353a6dfd6c4580f864",
       "ZSE_TAV.xml": "cbe043bb67d6e43d32baa18e3ad0124dfdd54e0ceeabad32813c3987eb58c214"
     },
-    "version": 1.0
+    "version": 1.1
   },
   "ZSU:FUS3": {
     "pack_name": "San Juan-ZSU MVA-MIA",
@@ -295,7 +295,7 @@
       "ZSU_MVA_FUS3.xml": "8c2bfe30360c93a6ce2af7aad6b838eb8e4fd07315645ba0332062f0faf652aa",
       "ZSU_TAV.xml": "669755cae739a7bc0d1ed8a820a60c2d0c519bfb89b552edf2a7664bbe6c05d9"
     },
-    "version": 1.0
+    "version": 1.1
   },
   "ZTL:FUS3": {
     "pack_name": "Atlanta-ZTL MVA-MIA",
@@ -312,6 +312,6 @@
       "TYS_MVA_FUS3.xml": "3ed30871fdccdc7f82415b2626cc80231f14366b0392e7e64665554b8d098a48",
       "ZTL_TAV.xml": "77eca03c31eacc8c2431c13bd3f5e111b96cf01ec788413dd9a9e5761b543aff"
     },
-    "version": 1.0
+    "version": 1.1
   }
 }
