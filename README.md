@@ -8,8 +8,9 @@ separately toggleable layers.
 Data is sourced **directly from the FAA** (`aeronav.faa.gov`), not a third-party mirror.
 
 > **Not for navigation. For educational use only.** Although this data is extracted
-> directly from official FAA sources, it is provided "as is" with no representation or
-> warranty that it is accurate, complete, or current. See the [Disclaimer](#disclaimer).
+> directly from official FAA sources, it has been converted and is not FAA-certified. It is
+> provided "as is" with no representation or warranty that it is accurate, complete, or
+> current. See the [Disclaimer](#disclaimer).
 
 ## Install
 
@@ -102,7 +103,7 @@ is reproducible across machines.
 ```
 mvapacks/        engine: sources, parse, labels, pack, naming, cli
 config/          artccs.yaml (registry), style.yaml (locked style)
-assets/          bundled font
+assets/          bundled DejaVu Sans font + its license
 state/           sources.lock.json, build_state.json  (tracked)
 data/            FAA XML snapshot                      (gitignored)
 dist/            built packs, dist/release/ staging    (gitignored)
@@ -111,8 +112,10 @@ charts/          released per-chart KMZs by ARTCC       (tracked; written by `re
 
 ## Data source & attribution
 
-Chart data is a U.S. Government work in the public domain, published by the FAA at
+Chart data is a U.S. Government work in the public domain (17 U.S.C. § 105), published by
+the FAA Aeronautical Information Services at
 <https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/mva_mia/>.
+The FAA requires no copyright notice or license for its reuse.
 
 ## Disclaimer
 
@@ -123,11 +126,28 @@ Chart data is a U.S. Government work in the public domain, published by the FAA 
   accurate, complete, current, or fit for any particular purpose. Everything in this
   repository and its releases is provided **"as is"**.
 - The data is converted and processed: boundaries are redrawn as KML and altitude labels
-  are positioned automatically. That processing can introduce errors. The FAA may also
-  revise or withdraw a chart at any time, so any copy here may be out of date.
+  are positioned automatically. That processing can introduce errors. The FAA certifies
+  only the files on its own website, and states that the certification no longer applies
+  once a file is modified, so **nothing here is FAA-certified**.
+- MVA/MIA charts are not updated on a regular schedule, and the FAA may revise or withdraw a
+  chart at any time, so any copy here may be out of date. Each chart's FAA vintage is listed
+  in its `charts/<ARTCC>/README.md`; check it against the FAA's current files.
+- Report errors in the FAA charts themselves to the responsible air traffic facility, as the
+  FAA asks. Report problems with this project's conversion as a GitHub issue here.
 - Do not use this data for navigation, flight planning, terrain or obstacle clearance, or
   any other operational purpose. MVAs and MIAs are altitudes used by air traffic control;
   rely only on current official FAA publications and ATC instructions.
 - This project is not affiliated with, endorsed by, or supported by the FAA or ForeFlight.
 - You use this data entirely at your own risk. The authors accept no liability for any
   loss, damage, or injury arising from its use.
+
+## License
+
+The code in this repository is released under the [MIT License](LICENSE).
+
+- **FAA chart data** (the source XML and the charts built from it, including `charts/`
+  and the release packs) is a U.S. Government work in the public domain. The MIT License
+  covers the code that processes it, not the data itself.
+- **DejaVu Sans** (`assets/DejaVuSans.ttf`), used to render the altitude labels, is
+  distributed under its own permissive license; see
+  [`assets/DejaVuSans-LICENSE.txt`](assets/DejaVuSans-LICENSE.txt).

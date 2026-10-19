@@ -264,7 +264,10 @@ def publish(root, staged):
     tag = staged['tag']
     _git(root, 'add', '--', 'charts', 'state')
     if _git(root, 'diff', '--cached', '--name-only', '--', 'charts', 'state'):
-        _git(root, 'commit', '-m', f'Data release {tag}', '--', 'charts', 'state')
+        # commit the index as staged; dirty_paths() guarantees nothing outside charts/ and
+        # state/ is in it. (A `commit -- <paths>` partial commit left the index holding the
+        # previous charts, so a later plain `git commit` would have reverted them.)
+        _git(root, 'commit', '-m', f'Data release {tag}')
     _git(root, 'tag', '-a', tag, '-m', f'Data release {tag}')
     branch = _git(root, 'rev-parse', '--abbrev-ref', 'HEAD')
     _git(root, 'push', 'origin', branch, tag)

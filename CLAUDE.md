@@ -42,7 +42,7 @@ Entry point: `mvapacks/cli.py::main` (also exposed as the `mvapacks` console scr
 | `mvapacks/cli.py` | argparse subcommands: `update`, `status`, `build`, `list`, `release`. Owns `state/build_state.json`. |
 | `config/artccs.yaml` | The facility registry: ARTCC→facilities, display names. **Editable by hand.** |
 | `config/style.yaml` | Locked label/boundary house style (v1.7). |
-| `assets/DejaVuSans.ttf` | Bundled font so rendering is identical across machines. |
+| `assets/DejaVuSans.ttf` | Bundled font so rendering is identical across machines. Its license (`assets/DejaVuSans-LICENSE.txt`) must ship with it. |
 
 Data/output dirs (gitignored): `data/` (FAA XML snapshot), `dist/` (built packs).
 Tracked state: `state/sources.lock.json`, `state/build_state.json`. Tracked output:
@@ -106,6 +106,8 @@ mapping is self-consistent and reproducible. Result lives in `config/artccs.yaml
   `status` → `build --artcc ZDC` reproduced the approved ZDC pack (correct layers, sector
   counts, and byte-identical label dimensions).
 - All 23 ARTCC packs built from live FAA data (2026-10-18); `release` command added.
+- **License:** code is MIT (`LICENSE`, © Dallas T Morisette); FAA data is public domain;
+  the bundled font keeps its own license.
 - **Disclaimer:** full text in `README.md#disclaimer`; short forms in `mvapacks/disclaimer.py`
   (chart READMEs, release notes, each pack's `provenance.json`). Keep them in sync.
 - **Tabled (user decision pending):** facilities with several FAA chart files are merged into
