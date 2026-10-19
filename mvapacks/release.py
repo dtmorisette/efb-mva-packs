@@ -244,8 +244,18 @@ def _release_notes(root, tag, prev, packs, full_name, fus):
 
 def dirty_paths(root):
     """Uncommitted changes outside charts/ and state/ (a release must not depend on them)."""
-    out = _git(root, 'status', '--porcelain', check=False)
-    paths = [l[3:] for l in out.splitlines()]
+    # -z: NUL-separated and unquoted (plain --porcelain quotes paths containing spaces)
+    out = subprocess.run(['git', 'status', '--porcelain', '-z'], cwd=root,
+                         capture_output=True, text=True).stdout
+    entries = out.split('\0')
+    paths, i = [], 0
+    while i < len(entries):
+        e = entries[i]
+        if len(e) > 3:
+            paths.append(e[3:])
+            if e[0] in 'RC':  # rename/copy: the source path follows as its own entry
+                i += 1
+        i += 1
     return [p for p in paths if not (p.startswith('charts/') or p.startswith('state/'))]
 
 
