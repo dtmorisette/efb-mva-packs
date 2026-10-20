@@ -8,5 +8,6 @@ Each file is a standalone KMZ layer. The whole center is also available as one F
 |---|---:|---|---|
 | [FAT MVA](FAT%20MVA.kmz) | 18 | FAT_MVA_FUS3_2024 | `FAT_MVA_FUS3.xml` |
 | [NCT MVA](NCT%20MVA.kmz) | 69 | NCT_MVA_FUS3_2025 | `NCT_MVA_FUS3.xml` |
-| [ZOA MVA](ZOA%20MVA.kmz) | 38 | ZOA_QMV_MVA_2024, ZOA_RBL_MVA_2024 | `ZOA_QMV_MVA.xml`, `ZOA_RBL_MVA.xml` |
+| [QMV MVA](QMV%20MVA.kmz) | 16 | ZOA_QMV_MVA_2024 | `ZOA_QMV_MVA.xml` |
+| [RBL MVA](RBL%20MVA.kmz) | 28 | ZOA_RBL_MVA_2024 | `ZOA_RBL_MVA.xml` |
 | [ZOA MIA](ZOA%20MIA.kmz) | 96 | ZOA_TAV_2025 | `ZOA_TAV.xml` |

@@ -78,7 +78,7 @@
       "D01_GJT_MVA_FUS3.xml": "fa69c40d39bcc6bcb36601d5303fb05cd73b55bee2798a55ab27f58d56a778b8",
       "ZDV_TAV.xml": "e559252ab05bad5c7ded6623672dbc242e81517cce3f5433423c322f60eefae7"
     },
-    "version": 1.1
+    "version": 1.2
   },
   "ZFW:FUS3": {
     "pack_name": "Fort Worth-ZFW MVA-MIA",
@@ -192,7 +192,7 @@
       "ZLC_GTF_MVA_FUS3.xml": "ef62229f8d64c6377f24540f0cc6d32fe051268ef6432a9dc477d7b2f2d60710",
       "ZLC_TAV.xml": "9236e8e11f51e1ebb868fadcf791a56951d37f84a129484d0999edd683205635"
     },
-    "version": 1.1
+    "version": 1.2
   },
   "ZMA:FUS3": {
     "pack_name": "Miami-ZMA MVA-MIA",
@@ -258,7 +258,7 @@
       "ZOA_RBL_MVA.xml": "38505e04bf5df5711b02707046b3f4634ad6445c63bb5132abdcac4e916d623c",
       "ZOA_TAV.xml": "e871f72859236c38d19fa793240ff7b362f5c76e564c673f6c7e285f4addba75"
     },
-    "version": 1.1
+    "version": 1.2
   },
   "ZOB:FUS3": {
     "pack_name": "Cleveland-ZOB MVA-MIA",
@@ -287,7 +287,7 @@
       "S46_MVA_FUS3.xml": "2e5cc1bb72779218d2f343dcf7549d3bdb4caf673419e6353a6dfd6c4580f864",
       "ZSE_TAV.xml": "cbe043bb67d6e43d32baa18e3ad0124dfdd54e0ceeabad32813c3987eb58c214"
     },
-    "version": 1.1
+    "version": 1.2
   },
   "ZSU:FUS3": {
     "pack_name": "San Juan-ZSU MVA-MIA",

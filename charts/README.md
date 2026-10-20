@@ -12,7 +12,7 @@ Individual KMZ chart layers, one folder per ARTCC. Full ForeFlight content packs
 | [Boston (ZBW)](ZBW/) | 9 |
 | [Chicago (ZAU)](ZAU/) | 11 |
 | [Cleveland (ZOB)](ZOB/) | 9 |
-| [Denver (ZDV)](ZDV/) | 5 |
+| [Denver (ZDV)](ZDV/) | 6 |
 | [Fort Worth (ZFW)](ZFW/) | 10 |
 | [Honolulu (ZHN)](ZHN/) | 2 |
 | [Houston (ZHU)](ZHU/) | 11 |
@@ -24,8 +24,8 @@ Individual KMZ chart layers, one folder per ARTCC. Full ForeFlight content packs
 | [Miami (ZMA)](ZMA/) | 6 |
 | [Minneapolis (ZMP)](ZMP/) | 11 |
 | [New York (ZNY)](ZNY/) | 8 |
-| [Oakland (ZOA)](ZOA/) | 4 |
-| [Salt Lake City (ZLC)](ZLC/) | 8 |
+| [Oakland (ZOA)](ZOA/) | 5 |
+| [Salt Lake City (ZLC)](ZLC/) | 11 |
 | [San Juan (ZSU)](ZSU/) | 2 |
-| [Seattle (ZSE)](ZSE/) | 6 |
+| [Seattle (ZSE)](ZSE/) | 8 |
 | [Washington (ZDC)](ZDC/) | 9 |
