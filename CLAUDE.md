@@ -69,6 +69,16 @@ Tracked state: `state/sources.lock.json`, `state/build_state.json`. Tracked outp
   Default `--names combined` gives `<Center>-<ARTCC>` for the pack name only
   (`Washington-ZDC MVA-MIA`); layers keep codes (`GSO MVA`, `ZDC MIA`).
   `--names code` → `ZDC MVA-MIA`; `--names full` spells out center and facility names.
+- **One layer per FAA chart file** (user decision). Never merge charts into one layer: a
+  facility's charts can overlap (HLN MULTI/VOR, GEG/GEG_PSC), like neighbors' charts do.
+  For a facility with several files, `naming.chart_layer_code` names each layer for the
+  location code after the facility token, which is only the facility the FAA files it
+  under (user-confirmed): `BOI_BZN` → `BZN MVA`, `D01_DEN_PUB` → `DEN-PUB MVA`,
+  `D01_GJT` → `GJT MVA`, `TWF_BYI_VOR` → `BYI MVA`, `ZOA_QMV`/`ZOA_RBL` → `QMV`/`RBL MVA`.
+  Chart-type-only files keep facility+type (`HLN-MULTI MVA`, `HLN-VOR MVA`); a main file is
+  `<FAC> MVA`. Single-file facilities always keep their code (`ZLC_GTF` stays `ZLC MVA`;
+  `GTF` would collide with Great Falls). Per-file overrides: a facility's `layers:` map in
+  `artccs.yaml`, keyed by `chart_key` (file stem minus FUS token).
 
 ## Data sourcing (FAA-direct)
 
@@ -110,10 +120,6 @@ mapping is self-consistent and reproducible. Result lives in `config/artccs.yaml
   the bundled font keeps its own license.
 - **Disclaimer:** full text in `README.md#disclaimer`; short forms in `mvapacks/disclaimer.py`
   (chart READMEs, release notes, each pack's `provenance.json`). Keep them in sync.
-- **Tabled (user decision pending):** facilities with several FAA chart files are merged into
-  one layer by filename prefix. Where those charts overlap (HLN MULTI+VOR, GEG+GEG_PSC,
-  TWF TWF+BYI) they draw on top of each other and can't be toggled apart. Options: one layer
-  per chart file for every multi-file facility (+7 layers), or only for the overlapping ones (+4).
 - **Not yet done:** the optional weekly GitHub Action (deliberately deferred by the user;
   it would run `update` → `build --stale` → `release --publish`); display-name cleanup.
 

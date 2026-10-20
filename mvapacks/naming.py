@@ -2,6 +2,7 @@
 from __future__ import annotations
 import glob
 import os
+import re
 import yaml
 
 
@@ -10,9 +11,11 @@ class Registry:
         self.artccs = cfg['artccs']            # code -> {name, facilities:[{code,name}]}
         # facility code -> (artcc_code, display_name)
         self._fac = {}
+        self._layers = {}                      # facility code -> {chart key: layer code}
         for ac, blk in self.artccs.items():
             for f in blk.get('facilities', []):
                 self._fac[f['code']] = (ac, f.get('name', f['code']))
+                self._layers[f['code']] = f.get('layers') or {}
 
     @classmethod
     def load(cls, path):
@@ -31,11 +34,45 @@ class Registry:
             return f'{name}-{artcc}' if name != artcc else artcc
         return artcc if style == 'code' else name
 
+    def layer_override(self, facility, path):
+        """Hand-set layer code for one chart file, from the facility's optional
+        `layers:` map in artccs.yaml (keyed by chart_key), or None."""
+        return self._layers.get(facility, {}).get(chart_key(path))
+
     def facility_label(self, code, style='combined'):
         # 'combined' only changes the center label; facility layers keep their codes
         if style in ('code', 'combined'):
             return code
         return self._fac.get(code, (None, code))[1]
+
+
+# Tokens in an MVA file name that describe the chart rather than where it is.
+_CHART_TYPE_TOKENS = {'VOR', 'MULTI'}
+
+
+def _is_fus(token):
+    return re.fullmatch(r'FUS\d', token, re.I) is not None
+
+
+def chart_key(path):
+    """File stem without the FUS3/FUS5 token, so one name covers both versions:
+    D01_DEN_PUB_MVA_FUS3.xml -> 'D01_DEN_PUB_MVA'. Used as the artccs.yaml override key."""
+    stem = os.path.splitext(os.path.basename(path))[0]
+    return '_'.join(t for t in stem.split('_') if not _is_fus(t))
+
+
+def chart_layer_code(facility, path):
+    """Layer code for one chart of a facility that publishes several. The first file-name
+    token is the facility the FAA files the chart under; a location code after it names
+    the chart (BOI_BZN_MVA_FUS3 -> 'BZN', D01_DEN_PUB_MVA_FUS3 -> 'DEN-PUB',
+    TWF_BYI_VOR_MVA -> 'BYI'). With only a chart type left, keep facility + type
+    (HLN_MVA_VOR -> 'HLN-VOR'); with nothing left it is the facility's main chart."""
+    tokens = [t for t in os.path.splitext(os.path.basename(path))[0].split('_')[1:]
+              if t.upper() != 'MVA' and not _is_fus(t)]
+    places = [t for t in tokens if t.upper() not in _CHART_TYPE_TOKENS]
+    if places:
+        return '-'.join(places)
+    return '-'.join([facility] + tokens)
 
 
 def facility_files(data_dir, facility, kind='mva', fus=None):

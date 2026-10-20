@@ -3,7 +3,10 @@
 Build FAA **Minimum Vectoring Altitude (MVA)** and **Minimum IFR Altitude (MIA)**
 chart overlays as ForeFlight **content packs** — one pack per ARTCC, each containing
 every TRACON MVA chart in that center plus the overlying ARTCC MIA chart, as
-separately toggleable layers.
+separately toggleable layers. Each FAA chart file gets its own layer, because charts can
+overlap. When the FAA files several charts under one facility, each layer is named for the
+area it covers: Boise's `BOI_BZN_MVA_FUS3` covers Bozeman, so it becomes `BZN MVA`
+alongside `BOI MVA`. Names can be overridden per file in `config/artccs.yaml`.
 
 Data is sourced **directly from the FAA** (`aeronav.faa.gov`), not a third-party mirror.
 

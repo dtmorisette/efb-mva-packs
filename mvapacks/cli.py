@@ -22,7 +22,7 @@ import sys
 import yaml
 
 from . import sources, pack as packmod, release as releasemod
-from .naming import Registry, facility_files
+from .naming import Registry, chart_layer_code, facility_files
 from .labels import LabelRenderer
 from .parse import vintage_tag
 
@@ -158,20 +158,25 @@ def _build_one(reg, style, renderer, ac, fus, names, bump, bstate, lock):
     os.makedirs(layers_dir, exist_ok=True)
 
     layer_meta = []
-    # facility MVA layers
+    # facility MVA layers: one per FAA chart file. A facility's charts can overlap
+    # (e.g. HLN MULTI vs VOR), so they must stay separately toggleable.
     for fac in reg.facilities(ac):
         xmls = facility_files(DATA, fac, 'mva', fus)
-        if not xmls:
-            continue
         flabel = reg.facility_label(fac, names)
-        lname = f'{flabel} MVA'
-        kmz = os.path.join(layers_dir, f'{lname}.kmz')
-        n = packmod.build_layer_kmz(kmz, lname, xmls, renderer, style)
-        layer_meta.append({'name': lname, 'sectors': n,
-                           'sources': [{'file': os.path.basename(x),
-                                        'vintage': lock['files'].get(os.path.basename(x), {}).get('vintage'),
-                                        'sha256': lock['files'].get(os.path.basename(x), {}).get('sha256')}
-                                       for x in xmls]})
+        for x in xmls:
+            # a single-file facility keeps its own code (ZLC_GTF must not become 'GTF',
+            # which would collide with Great Falls' own layer)
+            code = reg.layer_override(fac, x) or (chart_layer_code(fac, x) if len(xmls) > 1 else fac)
+            lname = f'{flabel if code == fac else code} MVA'
+            kmz = os.path.join(layers_dir, f'{lname}.kmz')
+            if os.path.exists(kmz):
+                raise RuntimeError(f'{ac}: two charts map to layer {lname!r}')
+            n = packmod.build_layer_kmz(kmz, lname, [x], renderer, style)
+            base = os.path.basename(x)
+            layer_meta.append({'name': lname, 'sectors': n,
+                               'sources': [{'file': base,
+                                            'vintage': lock['files'].get(base, {}).get('vintage'),
+                                            'sha256': lock['files'].get(base, {}).get('sha256')}]})
     # ARTCC MIA layer
     mia = facility_files(DATA, ac, 'mia')
     if mia:
